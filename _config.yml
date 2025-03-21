@@ -1,0 +1,23 @@
+title: CellTune
+email: yuval.bussi@weizmann.ac.il
+description: >-
+  CellTune is an interactive software platform for fast and accurate cell classification 
+  in multiplexed imaging data. Using human-in-the-loop active learning, it integrates 
+  visualization, annotation, and classification to streamline analysis and reveal novel cell types.
+baseurl: "" 
+url: "https://celltune.org"
+github_username: yuv345
+
+# Build settings
+markdown: kramdown
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+# Custom logo for site header
+logo:
+  src: /assets/images/celltune_logo.svg
+  alt: CellTune
+
+plugins:
+  - jekyll-feed
+  - jekyll-default-layout
