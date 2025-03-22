@@ -6,6 +6,7 @@ title: Introduction
 
 # Welcome to CellTune
   
+  
 **CellTune** is an interactive software platform for accurate, high-resolution, and efficient cell classification in multiplexed tissue imaging data.
 
 Combining visualization, manual annotation, and human-in-the-loop active learning, CellTune streamlines the labeling process and enhances classification performance. By engaging users with uncertain or ambiguous predictions, the platform maximizes information extracted from expert input and enables the discovery of novel cell types. 
