@@ -69,11 +69,9 @@ A formal citation and DOI will be provided upon publication.
 
 ## Contact
 
-For technical questions, issues, or feedback:
-📧 [yuval.bussi@weizmann.ac.il](mailto:yuval.bussi@weizmann.ac.il)
+For technical questions, issues, or feedback:  [yuval.bussi@weizmann.ac.il](mailto:yuval.bussi@weizmann.ac.il)
 
-For scientific collaborations or inquiries:  
-📧 [leeat.keren@weizmann.ac.il](mailto:leeat.keren@weizmann.ac.il)
+For scientific collaborations or inquiries:  [leeat.keren@weizmann.ac.il](mailto:leeat.keren@weizmann.ac.il)
 
 ---
 
