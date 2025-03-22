@@ -5,7 +5,7 @@ title: Introduction
 ---
 
 # Welcome to CellTune
-<br>
+&nbsp;
 **CellTune** is an interactive software platform for accurate, high-resolution, and efficient cell classification in multiplexed tissue imaging data.
 
 Combining visualization, manual annotation, and human-in-the-loop active learning, CellTune streamlines the labeling process and enhances classification performance. By engaging users with uncertain or ambiguous predictions, the platform maximizes information extracted from expert input and enables the discovery of novel cell types. 
@@ -18,7 +18,7 @@ Together, CellTune and CellTuneDepot provide a powerful toolkit for classifying 
 ---
 
 ## Download CellTune
-<br>
+&nbsp;
 Get the latest version of CellTune for your platform:
 
 - [Download for macOS (.dmg)](https://github.com/yuvalbussi/CellTune-App/releases/latest/download/CellTune.dmg)
@@ -28,7 +28,7 @@ Get the latest version of CellTune for your platform:
 ---
 
 ## Download CellTuneDepot
-<br>
+&nbsp;
 **CellTuneDepot** is a curated collection of multiplexed imaging datasets with expert-validated labels, intended for benchmarking, model training, and reproducible analysis.
 
 - [Download CellTuneDepot (v1.0)](https://github.com/yuvalbussi/CellTune-App/releases/latest/download/CellTuneDepot.zip)
@@ -48,14 +48,14 @@ Each dataset includes:
 ---
 
 ## Documentation
-<br>
+&nbsp;
 Documentation and tutorials are *coming soon*.  
 In the meantime, [contact us](#contact) with questions or usage inquiries.
 
 ---
 
 ## Citation
-<br>
+&nbsp;
 If you use CellTune in your research, please cite:
 
 > Bussi, *et al.* CellTune: An integrative software to expedite accurate cell classification in spatial proteomics  
@@ -64,9 +64,9 @@ If you use CellTune in your research, please cite:
 ---
 
 ## Contact
-<br>
+&nbsp;
 Found a bug, issue, or have a feature request?  
-> [Submit an issue on GitHub](https://github.com/KerenLab/CellTune-App/issues).
+>[Submit an issue on GitHub](https://github.com/KerenLab/CellTune-App/issues)
 
 For other technical questions, issues, or feedback:  [yuval.bussi@weizmann.ac.il](mailto:yuval.bussi@weizmann.ac.il)  
   
