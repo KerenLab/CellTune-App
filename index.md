@@ -1,33 +1,8 @@
 ---
-layout: home
+layout: home_with_splash
 nav_order: 1
 title: Introduction
 ---
-
-<!-- Splash Screen -->
-<div id="splash-screen" style="
-  position: fixed;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background-color: white;
-  display: flex; align-items: center; justify-content: center;
-  z-index: 9999;
-  opacity: 1;
-  transition: opacity 0.5s ease;
-">
-  <img src="/assets/celltune_logo.svg" alt="CellTune Logo" style="max-height: 200px;">
-</div>
-
-<script type="text/javascript">
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      const splash = document.getElementById('splash-screen');
-      splash.style.opacity = '0';
-      setTimeout(() => {
-        splash.remove();
-      }, 500); // Matches transition time
-    }, 1000); // Splash stays for 1 second
-  });
-</script>
 
 # Welcome to CellTune
 &nbsp;  
