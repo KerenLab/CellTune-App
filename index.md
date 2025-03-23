@@ -1,5 +1,5 @@
 ---
-layout: home_with_splash
+layout: home
 nav_order: 1
 title: Introduction
 ---
