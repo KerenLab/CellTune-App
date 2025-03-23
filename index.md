@@ -1,3 +1,36 @@
+<style>
+#splash-screen {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+	transition: opacity 0.5s ease;
+}
+#splash-screen img {
+	max-width: 200px;
+}
+</style>
+
+<div id="splash-screen">
+	<img src="/assets/celltune_logo.svg" alt="CellTune Logo">
+</div>
+
+<script>
+window.addEventListener('load', () => {
+	const splash = document.getElementById('splash-screen');
+	splash.style.opacity = 0;
+	setTimeout(() => {
+		splash.style.display = 'none';
+	}, 500); // Matches the CSS transition
+});
+</script>
+
 ---
 layout: home
 nav_order: 1
