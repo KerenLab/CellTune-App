@@ -1,3 +1,9 @@
+---
+layout: home
+nav_order: 1
+title: Introduction
+---
+
 <!-- Splash Screen -->
 <div id="splash-screen" style="
   position: fixed;
@@ -22,11 +28,6 @@
     }
   });
 </script>
----
-layout: home
-nav_order: 1
-title: Introduction
----
 
 # Welcome to CellTune
 &nbsp;  
