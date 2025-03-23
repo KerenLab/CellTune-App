@@ -31,8 +31,6 @@ Each dataset includes:
 > See the *Methods* section of our [manuscript](citation) for more details on all datasets.  
   
 &nbsp;  
-&nbsp;  
-&nbsp;  
 
 ---
 
