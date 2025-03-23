@@ -7,7 +7,7 @@ title: Documentation
 ## Documentation
 &nbsp;  
 Documentation and tutorials are *coming soon*.  
-In the meantime, [contact us](#contact) with questions or usage inquiries.
+In the meantime, [contact us](contact) with questions.
 
 ---
 
