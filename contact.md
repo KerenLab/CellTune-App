@@ -8,11 +8,15 @@ title: Contact
 &nbsp;  
 We're excited to have you using CellTune — and we’d love to hear from you with any feedback, questions, or suggestions!
 
-Found a bug, issue, or have a feature request? [Submit on GitHub](https://github.com/KerenLab/CellTune-App/issues)
+Found a bug, issue, or have a feature request? 
+[Submit on GitHub](https://github.com/KerenLab/CellTune-App/issues)  
 
-For other technical questions, feedback, or workshop requests:  [yuval.bussi@weizmann.ac.il](mailto:yuval.bussi@weizmann.ac.il)  
+For other technical questions, feedback, or workshop requests:
+[yuval.bussi@weizmann.ac.il](mailto:yuval.bussi@weizmann.ac.il)  
+[forum.image.sc](https://forum.image.sc/u/yuv345)  
   
-For scientific collaborations or inquiries:  [leeat.keren@weizmann.ac.il](mailto:leeat.keren@weizmann.ac.il)  
+For scientific collaborations or inquiries:  
+[leeat.keren@weizmann.ac.il](mailto:leeat.keren@weizmann.ac.il)  
 
 ---
 
