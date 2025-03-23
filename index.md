@@ -11,23 +11,21 @@ title: Introduction
   background-color: white;
   display: flex; align-items: center; justify-content: center;
   z-index: 9999;
+  opacity: 1;
   transition: opacity 0.5s ease;
 ">
   <img src="/assets/celltune_logo.svg" alt="CellTune Logo" style="max-height: 200px;">
 </div>
 
-<script>
-  // Wait 1s before hiding the splash
+<script type="text/javascript">
   window.addEventListener('load', () => {
     setTimeout(() => {
       const splash = document.getElementById('splash-screen');
-      if (splash) {
-        splash.style.opacity = 0;
-        setTimeout(() => {
-          splash.style.display = 'none';
-        }, 500); // match transition
-      }
-    }, 1000); // 1 second delay
+      splash.style.opacity = '0';
+      setTimeout(() => {
+        splash.remove();
+      }, 500); // Matches transition time
+    }, 1000); // Splash stays for 1 second
   });
 </script>
 
