@@ -20,7 +20,7 @@ Each dataset includes:
 
 *Datasets associated with unpublished studies will be released upon their publication.*
 
-> See the *Methods* section of our [manuscript](#citation) for more details on all datasets.
+> See the *Methods* section of our [manuscript](citation) for more details on all datasets.
 
 ---
 
