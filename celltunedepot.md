@@ -12,9 +12,9 @@ title: CellTuneDepot
 
 CellTuneDepot is organized into two main sections: 
 1. *Manual Labels*  
-     fully manually labeled crops/images
+&nbsp;&nbsp;&nbsp;&nbsp;Fully manually labeled crops/images
 2. *High-Quality Labels*  
-     semi-supervised labels generated with CellTune for entire datasets
+&nbsp;&nbsp;&nbsp;&nbsp;Semi-supervised labels generated with CellTune for entire datasets
 
 Each section is then further subdivided by dataset.
 &nbsp;  
