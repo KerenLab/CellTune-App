@@ -17,7 +17,6 @@ Together, CellTune and CellTuneDepot provide a powerful toolkit for classifying 
 
 ---
 ## Getting Started
-&nbsp;
 >[Download & Install CellTune](#download.md)  
 >[Download CellTuneDepot](#celltunedepot)  
 >[Documentation](#documentation)  
