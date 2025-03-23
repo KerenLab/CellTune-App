@@ -10,7 +10,15 @@ title: CellTuneDepot
 
 - [Download CellTuneDepot (v0.1)](https://github.com/yuvalbussi/CellTune-App/releases/latest/download/CellTuneDepot.zip)
 
-CellTuneDepot is organized into two main sections: *manual labels* and *CellTune-generated high-quality labels*, and further subdivided by dataset.  
+CellTuneDepot is organized into two main sections: 
+- *Manual Labels*
+  - fully manually labeled crops/images
+- *High-Quality Labels*
+  - semi-supervised labels for entire datasets generated with CellTune  
+
+Each section is then further subdivided by dataset.
+&nbsp;  
+&nbsp;  
 Each dataset includes:  
 - Multiplexed images
 - Segmentation masks
