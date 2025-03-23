@@ -12,9 +12,9 @@ title: CellTuneDepot
 
 CellTuneDepot is organized into two main sections: 
 1. *Manual Labels*  
-&nbsp;&nbsp;&nbsp;&nbsp;Fully manually labeled crops/images
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D5D5D5">Fully manually labeled crops/images</span>
 2. *High-Quality Labels*  
-&nbsp;&nbsp;&nbsp;&nbsp;Semi-supervised labels generated with CellTune for entire datasets
+&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#D5D5D5">Semi-supervised labels generated with CellTune for entire datasets</span>
 
 Each section is then further subdivided by dataset.
 &nbsp;  
@@ -29,7 +29,9 @@ Each dataset includes:
 *Datasets associated with unpublished studies will be released upon their publication.*
 
 > See the *Methods* section of our [manuscript](citation) for more details on all datasets.
-
+&nbsp;  
+&nbsp;  
+&nbsp;  
 ---
 
 © {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved.
