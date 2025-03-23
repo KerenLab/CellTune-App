@@ -17,15 +17,17 @@ title: Introduction
 </div>
 
 <script>
-  // Make sure everything is loaded before removing the splash screen
+  // Wait 1s before hiding the splash
   window.addEventListener('load', () => {
-    const splash = document.getElementById('splash-screen');
-    if (splash) {
-      splash.style.opacity = 0;
-      setTimeout(() => {
-        splash.style.display = 'none';
-      }, 500); // Match transition duration
-    }
+    setTimeout(() => {
+      const splash = document.getElementById('splash-screen');
+      if (splash) {
+        splash.style.opacity = 0;
+        setTimeout(() => {
+          splash.style.display = 'none';
+        }, 500); // match transition
+      }
+    }, 1000); // 1 second delay
   });
 </script>
 
