@@ -10,7 +10,7 @@ Get the latest version of CellTune for your platform:
 
 - [Download for macOS (.dmg)](https://github.com/yuvalbussi/CellTune-App/releases/latest/download/CellTune.dmg)
 - [Download for Windows (.exe)](https://github.com/yuvalbussi/CellTune-App/releases/latest/download/CellTune.exe)
-- Download for Linux (.AppImage) — *coming soon*
+- Download for Linux — *coming soon*
 
 ---
 
