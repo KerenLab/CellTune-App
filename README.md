@@ -1,5 +1,5 @@
 # CellTune-App
-CellTune is a desktop application for accurate cell classification in spatial proteomics data, using a human-in-the-loop active learning framework.
+CellTune is a desktop application for accurate cell classification in spatial proteomics data.
 
 From this page, you can download CellTune [releases](https://github.com/KerenLab/CellTune-App/releases).
 
