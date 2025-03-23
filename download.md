@@ -15,7 +15,7 @@ Get the latest version of CellTune for your platform:
 ---
 
 ## Installation
-&nbsp
+&nbsp;
 *Coming soon*
 
 ---
