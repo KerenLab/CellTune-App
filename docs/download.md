@@ -12,6 +12,9 @@ Get the latest version of CellTune for your platform:
 - [Download for Windows (.exe)](https://www.dropbox.com/scl/fi/1bloi4q2tzftk8nbtmrrd/CellTuneSetup.exe?rlkey=ae02io9lykjkft8et51akm8b7&dl=0)
 - Download for Linux — *coming soon*
 
+
+[Demo Data](https://www.dropbox.com/scl/fo/ggh2nsprk2vqwxq8jk5q5/ABp7dl734GFH9lI1PHD4xk0?rlkey=nvruf5wytiondimcoy1uzx34t&dl=0)
+
 ---
 
 ## Installation
