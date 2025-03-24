@@ -14,7 +14,7 @@ Get the latest version of CellTune for your platform:
 
 
 [Demo Data](https://www.dropbox.com/scl/fo/ggh2nsprk2vqwxq8jk5q5/ABp7dl734GFH9lI1PHD4xk0?rlkey=nvruf5wytiondimcoy1uzx34t&dl=0)
-
+[CellTable](https://www.dropbox.com/scl/fi/r9gl5i9jr72vngiolhh2j/cellTable_features_calculated.parquet?rlkey=rprdnfrw6a5b8zkpejyxsdxc2&dl=0)
 ---
 
 ## Installation
