@@ -13,7 +13,7 @@ markdown: kramdown
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
-logo: /assets/celltune_logo.svg
+logo: assets/celltune_logo.svg
 
 plugins:
   - jekyll-feed
