@@ -26,7 +26,7 @@ Each dataset includes:
 - Population labels
 - Cell table containing per-cell mean protein expression
 
-*Datasets associated with unpublished studies will be released upon their publication.*
+*Datasets associated with unpublished studies will be released upon publication of their respective manuscripts.*
 
 > See the *Methods* section of our [manuscript](citation) for more details on all datasets.  
   
