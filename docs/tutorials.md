@@ -1,4 +1,4 @@
-<img width="229" alt="single_image_folder" src="https://github.com/user-attachments/assets/6cf22bf4-fc76-41a2-abc3-98e720acb0fc" />---
+---
 layout: home
 nav_order: 4
 title: Tutorials
