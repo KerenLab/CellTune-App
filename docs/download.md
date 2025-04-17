@@ -8,9 +8,9 @@ title: Download & Install
 &nbsp;  
 Get the latest version of CellTune for your platform:
 
-- [Download for macOS (Apple Silicon)](https://www.dropbox.com/scl/fi/x6x4se1fnelgvlm4aiw86/CellTune.dmg?rlkey=jb2fwje70ebfxsbjnf2ct9hcl&dl=1)
-- Download for macOS (Intel) — *coming soon*
-- [Download for Windows](https://www.dropbox.com/scl/fi/nyfepm82c7aoxbzw0nxbh/CellTuneSetup.exe?rlkey=49mfsdoge9hrmntdqfdhnhclw&dl=1)
+- [Download for macOS (Apple Silicon)](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-macOS-arm64.dmg)
+- [Download for macOS (Intel)](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-macOS-intel.dmg)
+- [Download for Windows](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-Windows-setup.exe)
 - Download for Linux — *coming soon*
 
 
@@ -18,7 +18,7 @@ Get the latest version of CellTune for your platform:
 
 ## Demo Data
 &nbsp;
-[Download images and tables for the tutorial](https://www.dropbox.com/scl/fi/6vwczpv1n5jryf6oibpaf/GVHD_Apr0925_Workshop.zip?rlkey=qgt9capghs4mizp3pfm4mwj1e&dl=1)
+[Download images and tables for the tutorial](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune_Demo_Data.zip)
 
 ---
 
