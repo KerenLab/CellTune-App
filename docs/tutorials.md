@@ -1,4 +1,4 @@
----
+<img width="229" alt="single_image_folder" src="https://github.com/user-attachments/assets/6cf22bf4-fc76-41a2-abc3-98e720acb0fc" />---
 layout: home
 nav_order: 4
 title: Tutorials
@@ -69,7 +69,7 @@ Each Image (FOV) folder includes:
 
 Each FOV in this dataset has 73 channel files + 2 segmentation files.
 
-![Single_Image Folder Contents](assets/tutorial/single_image_folder.png)
+![Single Image Folder Contents](assets/tutorial/single_image_folder.png)
 
 
 These files will be loaded directly into CellTune when starting a new project.
