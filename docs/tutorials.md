@@ -21,11 +21,11 @@ You can extract it to your **Downloads** folder or create a dedicated folder suc
 
 ---
 
-#### Demo Data Contents
+### Demo Data Contents
 
 The demo dataset included with CellTune provides a complete example of spatial proteomics analysis using multiplexed tissue images from **control** and **GVHD** intestinal biopsies, as described in [Azulay et al., bioRxiv 2025](https://www.biorxiv.org/content/10.1101/2024.09.02.610085v1.full).
 
-##### `CellTune_Demo_Data/`
+### `CellTune_Demo_Data/`
 
 - `cellTable_features_calculated.parquet`  
   Pre-computed single-cell features, including intensity, morphology, and spatial statistics.
@@ -44,13 +44,14 @@ The demo dataset included with CellTune provides a complete example of spatial p
 
 ---
 
-#### `Images/`
+### `Images/`
 
 This folder contains **75 subfolders**, each corresponding to a single field of view (FOV) from either control or GVHD tissue:
 
 - `Control_01_FOV_1`, `Control_01_FOV_2`, ..., `GVHD_03_FOV_2`, etc.
 
 ![Images Folder Contents](assets/tutorial/images_folder.png)
+&nbsp;  
 ...  
 
 Each Image (FOV) folder includes:
@@ -71,6 +72,7 @@ Each Image (FOV) folder includes:
 Each FOV in this dataset has 73 channel files + 2 segmentation files.
 
 ![Single Image Folder Contents](assets/tutorial/single_image_folder.png)
+&nbsp;  
 ...  
 
 These files will be loaded directly into CellTune when starting a new project.
