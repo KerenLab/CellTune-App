@@ -42,7 +42,6 @@ The demo dataset included with CellTune provides a complete example of spatial p
 - `Images/`  
   Contains all image data and segmentations used in the tutorial.
 
----
 
 ### `Images/`
 
@@ -76,6 +75,25 @@ Each FOV in this dataset has 73 channel files + 2 segmentation files.
 ...  
 
 These files will be loaded directly into CellTune when starting a new project.
+
+---
+
+### Step 2: New Project Setup
+&nbsp;  
+
+Create a new project using the demo data:
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/CellTune_NewProjectSetup.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+---
+
+### Step 3: Main Window 
+&nbsp;  
+
 
 ---
 
