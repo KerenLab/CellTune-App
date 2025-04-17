@@ -27,6 +27,7 @@ Get the latest version of CellTune for your platform:
 
 **Dependencies:**
 - All required dependencies are bundled inside the application. No additional installation is needed.
+- Light mode only, dark mode support coming very soon. 
 
 **Hardware:**
 - No special hardware required.
@@ -67,14 +68,7 @@ Get the latest version of CellTune for your platform:
 ## First Launch
 &nbsp;
 After installation, CellTune should open to a startup screen.  
-You can start a new project following the [Documentation](documentation) or load the [demo data](#demo-data) and follow the full [Tutorial](tutorial).
-
----
-
-## Demo Data
-&nbsp;
-[Download images and tables for the tutorial](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune_Demo_Data.zip)
-
+You can start a new project following the [Documentation](documentation) or download the demo data and follow the [Tutorial](tutorials).
 
 ---
 © {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved. [License](/license/)
