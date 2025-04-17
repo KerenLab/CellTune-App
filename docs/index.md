@@ -24,4 +24,4 @@ Together, CellTune and CellTuneDepot provide a powerful toolkit for classifying 
 >[Manuscript](citation)  
 
 ---
-© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved.
+© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved. [License](/license/)

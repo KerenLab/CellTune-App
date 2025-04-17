@@ -27,4 +27,4 @@ Get the latest version of CellTune for your platform:
 *Coming soon*
 
 ---
-© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved.
+© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved. [License](/license/)

@@ -11,4 +11,4 @@ In the meantime, [contact us](contact) with questions.
 
 ---
 
-© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved.
+© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved. [License](/license/)

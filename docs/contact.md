@@ -32,4 +32,4 @@ For scientific collaborations or inquiries:
 ---
 
 
-© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved.
+© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved. [License](/license/)

@@ -35,4 +35,4 @@ If you use CellTune in your research, please cite:
 ---
 
 
-© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved.
+© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved. [License](/license/)
