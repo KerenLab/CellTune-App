@@ -5,7 +5,7 @@ title: Introduction
 ---
 
 # Welcome to CellTune
-&nbsp;  
+&nbsp;   
 **CellTune is an integrative software to expedite accurate cell classification in spatial proteomics**. 
 
 Designed for researchers analyzing large cohorts, CellTune streamlines cell classification through a comprehensive and highly optimized human-in-the-loop active learning workflow. By strategically selecting cells with high uncertainty, the platform maximizes the impact of user input and enables the discovery of fine-grained and novel cell types. CellTune advances core capabilities across visualization, gating, annotation, and spatial feature extraction — all within a unified, intuitive, and code-free interface — to efficiently achieve state-of-the-art classification accuracy and resolution, at scale.
