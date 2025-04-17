@@ -1,0 +1,28 @@
+Academic-Use License Agreement for CellTune
+
+Copyright © 2025 Weizmann Institute of Science. All rights reserved.
+
+1. Grant of License  
+This software (“CellTune”) is licensed, not sold. You are granted a non-exclusive, non-transferable license to install and use CellTune solely for non-commercial academic research and educational purposes at a degree-granting institution.
+
+2. Restrictions  
+You may not:
+- Use the software for any commercial purpose, including internal research at for-profit institutions, contract work, consulting, or integration into commercial products.
+- Redistribute, sublicense, rent, lease, or sell the software or any part of it.
+- Modify, adapt, reverse engineer, decompile, or disassemble the software.
+- Use the software in clinical, diagnostic, or patient-care settings without express permission from the Licensor.
+
+3. Ownership  
+The software is proprietary and protected by copyright law. All rights not expressly granted herein are reserved by the Licensor.
+
+4. Termination  
+This license will terminate immediately if you breach any of its terms. Upon termination, you must cease all use and delete all copies of the software.
+
+5. No Warranty  
+This software is provided “as is” without warranty of any kind, express or implied. The Licensor is not liable for any damages or losses resulting from its use.
+
+6. Contact  
+For commercial licensing inquiries or permission for restricted uses, contact leeat.keren@weizmann.ac.il
+
+7. Citation Requirement  
+If you use CellTune in a publication, you must cite the associated manuscript.
