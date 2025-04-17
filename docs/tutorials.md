@@ -51,6 +51,7 @@ This folder contains **75 subfolders**, each corresponding to a single field of 
 - `Control_01_FOV_1`, `Control_01_FOV_2`, ..., `GVHD_03_FOV_2`, etc.
 
 ![Images Folder Contents](assets/tutorial/images_folder.png)
+...  
 
 Each Image (FOV) folder includes:
 
@@ -70,7 +71,7 @@ Each Image (FOV) folder includes:
 Each FOV in this dataset has 73 channel files + 2 segmentation files.
 
 ![Single Image Folder Contents](assets/tutorial/single_image_folder.png)
-
+...  
 
 These files will be loaded directly into CellTune when starting a new project.
 
