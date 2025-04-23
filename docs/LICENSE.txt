@@ -22,7 +22,7 @@ This license will terminate immediately if you breach any of its terms. Upon ter
 This software is provided “as is” without warranty of any kind, express or implied. The Licensor is not liable for any damages or losses resulting from its use.
 
 6. Contact  
-For commercial licensing inquiries or permission for restricted uses, contact leeat.keren@weizmann.ac.il
+For commercial licensing inquiries or permission for restricted uses, contact info.yeda@weizmann.ac.il and cc leeat.keren@weizmann.ac.il
 
 7. Citation Requirement  
 If you use CellTune in a publication, you must cite the associated manuscript.
