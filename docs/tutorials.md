@@ -152,4 +152,282 @@ Adjust segmentation opacity and hover fill through segment controls.
 
 ---
 
+### Step 4: Features
+
+### 4A. Compute Features
+&nbsp;  
+
+Features must be computed or imported in order to enable gating, classification, & hover info.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/CalculateFeatures.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### 4B. Import Features
+&nbsp;  
+
+Features can be imported via a cellTable (CSV or parquet file)
+The cellTable should have the columns: (image, cellID)
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/ImportFeatures.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### 4C. Hover Legend Features
+&nbsp;  
+
+Select features that will be displayed while hovering
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/HoverLegend.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### Step 5: Create Empty Population Set
+&nbsp;  
+
+Create an empty population set. You can add populations to it (e.g. from gating)
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/CreateEmptyPopulationSet.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+---
+
+### Step 6: Gating
+
+### 6A. Gating Basics
+&nbsp;  
+
+Select the feature that you want to gate and click "Apply Gate".
+Shown is an example of gating CD3+ and CD4+ cells.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/GatingCD3CD4.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Gating occurs across the entire project currently. (We are adding the capability to limit to the current image).
+
+
+---
+
+### 6B. Adjust Gating Appearance
+&nbsp;  
+
+You can adjust the opacity and whether gated cells are filled in.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/AdjustGatingOpacity.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Currently gated cells can only be displayed in the color cyan. (We are adding the capability to edit this).
+
+---
+
+### 6C. Create Population from Gating
+&nbsp;  
+
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/GatingCreatePopulation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### 6D. Filter Gate by Population
+&nbsp;  
+
+You can select populations in the current population set and use them as a filter for your gating.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/GatingPopulationFilter.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### 6E. Edit Gating Expression
+&nbsp;  
+
+You can edit your gating expression to use AND (&), OR (|), and NOT (!) operations.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/GatingEditExpression.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+By default the gating expression uses AND (&) for all compound gates.
+
+---
+
+### Step 7: Import Population Set
+&nbsp;  
+
+Population sets can be imported from files (CSV). Columns should be (image, cellID, class).
+Here we are importing labels to be used for training a classifier later. We can also import Population set info which includes colors, channels, and definitions for cell types (useful later).
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/ImportPopulationSet&Info.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+A cell can belong to multiple populations. For population sets that are used as labels for training classifiers we encourage limiting a cell to one population.
+
+---
+
+### Step 8: Classification
+
+### 8A. Create Classifier
+&nbsp;  
+
+Create a classifier and select the features it will use for training.
+The features were computed or imported previously in step 4.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/CreateClassifier.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+---
+
+### 8B. Add Labels to Classifier
+&nbsp;  
+
+Add training labels to a classifier. You can select an existing population set.
+This action will create a new population set called "Labels_{Classifier_Name}"
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/ClassifierAddLabels.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### 8C. Train Classifier
+&nbsp;  
+
+Trains the CellTune classifier using the features and labels. Please be patient.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/ClassifierTraining.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+CellTune trains two models XGBoost and CatBoost by default. CatBoost is slow without GPU (1-2 hours), so LightGBM may be substituted if desired.
+
+---
+
+### 8D. Plot Confusions
+&nbsp;  
+
+Plot a confusion matrix showing the agreements and disagreements between the two models trained. 
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/PlotConfusions.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### Step 9: Visualize Populations
+&nbsp;  
+
+You can select a population set and color the cells by the populations.
+Here we select the predictions from the classifier and visualize the predictions.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/VisualizePredictions.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+You can put one population on and make it transparent to compare it to the protein expression as shown:
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/VisualizePopulationsOpacity.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### Step 9: Sampling and Labeling
+
+### 9A. Cell Sampling
+&nbsp;  
+
+You can adjust the default settings for sampling.
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/ClassifierSample.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+---
+
+### 9B. Labeling
+&nbsp;  
+
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/Labeling1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### 9C. Add New Population
+&nbsp;  
+
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/ReviewAddNewPopulation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### 9D. Exit Review and Retrain Classifier
+&nbsp;  
+
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/ExitReviewRetrain.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### 9E. Export Populations
+&nbsp;  
+
+
+<video width="100%" controls>
+  <source src="/assets/tutorial/ExportPopulationsCSV.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+---
+
+
+
+
+
+
+
 © {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved. [License](/license/)
