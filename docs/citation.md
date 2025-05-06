@@ -11,7 +11,7 @@ If you use CellTune in your research, please cite:
 > CellTune: An integrative software to expedite accurate cell classification in spatial proteomics  
 > Bussi, *et al.,* *Unpublished* 2025
 > &nbsp;  
-> Manuscript is in preparation and a formal citation will be updated upon publication.
+> Our manuscript has been submitted to bioRxiv, the link will be public and updated here within 24-72 hours. 
   
 &nbsp;  
 &nbsp;  
