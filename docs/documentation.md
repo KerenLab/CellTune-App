@@ -14,7 +14,7 @@ Also feel free to [contact us](contact) with questions.
 
 ---
 
-## Compatibility
+### Compatibility
 
 CellTune currently supports non-pyramidal single-TIFF images, organized as demonstrated in the [Tutorial](tutorials).
 The recommended image size is 1024 × 1024 pixels. Larger images (tested up to 5000 × 5000 pixels) are also supported, though performance may decrease.
