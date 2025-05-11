@@ -17,7 +17,7 @@ If you haven’t already installed the CellTune software, please start with the 
 After downloading, unzip the folder.  
 You can extract it to your **Downloads** folder or create a dedicated folder such as `CellTune_Data` in your **Documents**.
 
-![Demo Data Folder Contents](assets/tutorial/demo_data_folder.png)
+![Demo Data Folder Contents](assets/tutorial/demo_folder.png)
 
 ---
 
@@ -33,11 +33,8 @@ The demo dataset included with CellTune provides a complete example of spatial p
 - `Labels.csv`  
   Cell-level annotations for training and evaluation.
 
-- `Landmark_Rules.csv`  
-  Gating rules used to define landmark populations.
-
 - `PopulationSetInfo.csv`  
-  Metadata describing the available population sets.
+  Metadata describing the populations (cell types).
 
 - `Images/`  
   Contains all image data and segmentations used in the tutorial.
@@ -49,9 +46,7 @@ This folder contains **75 subfolders**, each corresponding to a single field of 
 
 - `Control_01_FOV_1`, `Control_01_FOV_2`, ..., `GVHD_03_FOV_2`, etc.
 
-![Images Folder Contents](assets/tutorial/images_folder.png)
 &nbsp;  
-...  
 
 Each Image (FOV) folder includes:
 
