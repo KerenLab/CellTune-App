@@ -6,7 +6,7 @@ title: Citation
 
 ## Citation
 &nbsp;  
-If you use CellTune in your research, please cite:  
+If you use CellTune in your research, please cite our manuscript:  
 
 > Bussi, *et al.* CellTune: An integrative software to expedite accurate cell classification in spatial proteomics. *bioRxiv* (2025).
 > &nbsp; 
