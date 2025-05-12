@@ -9,6 +9,7 @@ title: Citation
 If you use CellTune in your research, please cite:  
 
 > Bussi, *et al.* CellTune: An integrative software to expedite accurate cell classification in spatial proteomics. *bioRxiv* (2025).
+> &nbsp; 
 > [link](https://www.biorxiv.org/content/10.1101/2025.05.05.652215)
 > &nbsp;  
   
