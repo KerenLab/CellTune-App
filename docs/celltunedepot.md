@@ -8,7 +8,7 @@ title: CellTuneDepot
 &nbsp;  
 **CellTuneDepot** is a curated collection of multiplexed imaging datasets with expert-validated labels, intended for benchmarking, model training, and reproducible analysis.
 
-- [Download (v0.1.0)](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTuneDepot-v0.1.0.zip)
+- [Download (v0.1.0)](celltunedepot_uploading)
 
 CellTuneDepot is organized into two main sections: 
 1. *Manual Labels*  
