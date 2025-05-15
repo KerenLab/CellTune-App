@@ -6,8 +6,8 @@ title: Download & Install
 
 ## Download CellTune
 &nbsp;  
-Get the latest version of CellTune for your platform:
-
+Download version 0.1.0 of CellTune for your platform:  
+(**Note!** version 0.1.1 will be released next week, May 20th - follow [@CellTune_App](https://x.com/CellTune_App) for updates!) 
 - [Download for macOS (Apple Silicon)](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-macOS-arm64.dmg)
 - [Download for macOS (Intel)](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-macOS-intel.dmg)
 - [Download for Windows](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-Windows-setup.exe)
