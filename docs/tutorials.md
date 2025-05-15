@@ -371,6 +371,7 @@ You can adjust the default settings for sampling.
   Your browser does not support the video tag.
 </video>
 
+!**Note** if you get an error while loading review, then you need to import PopulationSetInfo for Pred_ALL_Classifier_1. This will be corrected in the upcoming version 0.1.1.
 
 ---
 
