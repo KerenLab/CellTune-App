@@ -1,6 +1,7 @@
 ---
 layout: default
 title: CellTuneDepot - Update in Progress
+nav_exclude: true
 ---
 
 ## CellTuneDepot Update in Progress
