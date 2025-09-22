@@ -8,9 +8,9 @@ title: Download & Install
 &nbsp;  
 Download version 0.1.0 of CellTune for your platform:  
 (**Note!** version 0.1.1 will be released next week, May 20th - follow [@CellTune_App](https://x.com/CellTune_App) for updates!) 
-- [Download for macOS (Apple Silicon)](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-macOS-arm64.dmg)
-- [Download for macOS (Intel)](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-macOS-intel.dmg)
-- [Download for Windows](https://github.com/KerenLab/CellTune-App/releases/download/v0.1.0/CellTune-v0.1.0-Windows-setup.exe)
+- [Download for macOS (Apple Silicon)](https://github.com/KerenLab/CellTune-App/releases/download/v0.2.2/CellTune-v0.2.2-macOS-arm64.dmg)
+- Download for macOS (Intel) — *coming soon*
+- [Download for Windows (GPU)](https://github.com/KerenLab/CellTune-App/releases/download/v0.2.2/CellTune-v0.2.2-Windows_GPU-setup.exe)
 - Download for Linux — *coming soon*
 
 ---
@@ -27,12 +27,12 @@ Download version 0.1.0 of CellTune for your platform:
 
 **Dependencies:**
 - All required dependencies are bundled inside the application. No additional installation is needed.
-- Light mode only, dark mode support coming very soon. 
+- Light mode only, dark mode support coming soon. 
 
 **Hardware:**
 - No special hardware required.
 - ≥32 GB RAM and ≥8 CPU cores are highly recommended for efficient processing.
-- A dedicated GPU (Apple Silicon or CUDA-capable) is highly recommended for improved performance, most especially for CNN-based features (e.g. marker positivity inference).
+- A dedicated GPU (Apple Silicon or NVIDIA CUDA-capable) is highly recommended for improved performance, most especially for CNN-based features (e.g. marker positivity inference).
 
 ---
 
