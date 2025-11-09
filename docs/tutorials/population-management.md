@@ -4,6 +4,7 @@ title: Population Management
 parent: Tutorials
 nav_order: 4
 permalink: /tutorials/population-management
+has_children: true
 ---
 
 ---
@@ -51,42 +52,6 @@ Currently gated cells can only be displayed in the color cyan. (We are adding th
 
 ---
 
-### 6C. Create Population from Gating
-&nbsp;  
-
-<video width="100%" controls>
-  <source src="{{ '/assets/tutorial/GatingCreatePopulation.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
----
-
-### 6D. Filter Gate by Population
-&nbsp;  
-
-You can select populations in the current population set and use them as a filter for your gating.
-
-<video width="100%" controls>
-  <source src="{{ '/assets/tutorial/GatingPopulationFilter.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
----
-
-### 6E. Edit Gating Expression
-&nbsp;  
-
-You can edit your gating expression to use AND (`&`), OR (`|`), and NOT (`!`) operations.
-
-<video width="100%" controls>
-  <source src="{{ '/assets/tutorial/GatingEditExpression.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-By default the gating expression uses AND (`&`) for all compound gates.
-
----
-
 ## Step 7: Import Population Set
 &nbsp;  
 
@@ -99,4 +64,11 @@ Here we are importing labels to be used for training a classifier later. We can 
 </video>
 
 A cell can belong to multiple populations. For population sets that are used as labels for training classifiers we encourage limiting a cell to one population.
+
+---
+
+### Explore Advanced Gating
+
+- Use population filters, compound logic, and reusable expressions to accelerate review.  
+- Browse the full walkthrough in the [Advanced Gating Tips](advanced-gating) subpage for demo videos and best practices.
 
