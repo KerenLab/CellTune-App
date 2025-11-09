@@ -1,2 +1,6 @@
-
+.idea/
 .DS_Store
+docs/.sass-cache/
+docs/_site/
+docs/.bundle/
+docs/vendor/bundle/
