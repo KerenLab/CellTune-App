@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+# Lock to the same Jekyll major version GitHub Pages uses (3.x).
+gem "jekyll", "~> 3.10.0"
+gem "webrick", "~> 1.8"
+
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.17"
+  gem "jekyll-default-layout", "~> 0.1"
+  gem "jekyll-remote-theme", "~> 0.4"
+  gem "jekyll-seo-tag", "~> 2.8"
+  gem "jekyll-include-cache", "~> 0.2"
+end
+gem "kramdown-parser-gfm", "~> 1.1"
+gem "rake", "~> 13.2"
