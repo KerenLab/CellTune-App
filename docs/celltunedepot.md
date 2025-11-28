@@ -52,7 +52,7 @@ Each dataset includes:
 
 ### Cell Types
 
-**'CellTypes.csv'** contains a list of all cell types across datasets and the expression used to define them (PrimaryMarker).
+**'CellTypes_ALL.csv'** contains a list of all cell types across datasets and the expression used to define them (PrimaryMarker).
 
 
 &nbsp;  
