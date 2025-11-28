@@ -6,7 +6,7 @@ title: Download & Install
 
 ## Download CellTune
 &nbsp;  
-Download version 0.3.0 of CellTune for your platform:
+Download version 0.3.0 of CellTune for your platform:  
 (follow [@CellTune_App](https://x.com/CellTune_App) for updates!) 
 - [Download for macOS (Apple Silicon)](https://github.com/KerenLab/CellTune-App/releases/download/v0.3.0/CellTune-v0.3.0-macOS-arm64.dmg)
 - Download for macOS (Intel) — *coming soon*
@@ -53,6 +53,8 @@ Create a new project, import Labels, Populations, & Features from old project.)
    - You should only need to do this once.
 
 > _[This warning will be removed after code signing/notarization.]_
+>   
+> _[One user on macOS 15.6+ reported that an update with stricter permission settings prevented CellTune from running properly. We’re investigating the issue. If you experience something similar, please review your macOS Security & Privacy settings and let us know.]_
 
 ---
 
