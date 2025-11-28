@@ -12,11 +12,11 @@ title: CellTuneDepot
 
 CellTuneDepot is organized into two main sections:
 
-1. **Manual Labels**
+**1. Manual Labels**
 
    - Fully manually labeled crops/images.
 
-2. **High-Quality Labels**
+**2. High-Quality Labels**
 
    - Semi-supervised labels generated with CellTune for entire datasets.
 
@@ -29,14 +29,14 @@ Each section is then further subdivided by dataset.
 
 Each dataset includes:
 
-#### 1. **Images Folder**
+**1. Images Folder**
 
 - **Structure**: Contains subfolders for each image, aka Field of View (FOV).
 - **Contents**: Each image subfolder includes:
   - ~40+ TIFF images representing various biological markers.
   - **Segmentation labels image** ('segmentation_labels') for delineating individual cells.
  
-#### 2. **Tables Folder**
+**2. Tables Folder**
 
 - **Structure**: Contains CSV files with key data annotations and features.
 - **Contents**:
