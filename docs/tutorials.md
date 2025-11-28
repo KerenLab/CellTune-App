@@ -12,7 +12,7 @@ If you haven’t already installed the CellTune software, please start with the 
 ---
 ### Step 1: Download Demo Data
 &nbsp;  
-[Download images and tables for the tutorial](https://github.com/KerenLab/CellTune-App/releases/download/v0.2.2/CellTune_Demo_Data.zip)
+[Download images and tables for the tutorial](https://github.com/KerenLab/CellTune-App/releases/download/v0.3.0/CellTune_Demo_Data.zip)
 
 After downloading, unzip the folder.  
 You can extract it to your **Downloads** folder or create a dedicated folder such as `CellTune_Data` in your **Documents**.
