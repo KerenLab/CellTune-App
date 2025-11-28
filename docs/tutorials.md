@@ -23,7 +23,12 @@ You can extract it to your **Downloads** folder or create a dedicated folder suc
 
 ### Demo Data Contents
 
-The demo dataset included with CellTune provides a complete example of spatial proteomics analysis using multiplexed tissue images from **control** and **GVHD** intestinal biopsies, as described in [Azulay et al., bioRxiv 2025](https://www.biorxiv.org/content/10.1101/2024.09.02.610085v1.full).
+The demo dataset included with CellTune provides a complete example of spatial proteomics analysis using multiplexed tissue images from the study:
+[Azulay et al. “A spatial atlas of human gastrointestinal acute GVHD reveals epithelial and immune dynamics underlying disease pathophysiology.” Science Translational Medicine 17.823 (2025)](https://www.science.org/doi/full/10.1126/scitranslmed.adu6032).  
+  
+It consists of MIBI (Multiplexed Ion Beam Imaging) data from duodenum and colon biopsies collected from GVHD patients and matched controls, acquired at 0.4 µm/pixel resolution and exported as 8-bit (0–255) single TIFF images.  
+  
+Preprocessing followed the MAUI pipeline (Baranski et al., 2021), including background subtraction, noise removal, and aggregate filtering. Segmentation was performed using Mesmer (Greenwald et al., 2022) via the ark-analysis pipeline, using a two-pass strategy designed to better capture goblet cells.  For further details, see the methods section of the manuscript.
 
 ### `CellTune_Demo_Data/`
 
