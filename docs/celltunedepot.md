@@ -8,7 +8,7 @@ title: CellTuneDepot
 &nbsp;  
 **CellTuneDepot** is a curated collection of multiplexed imaging datasets with expert-validated labels, intended for benchmarking, model training, and reproducible analysis.
 
-- [Download](https://www.dropbox.com/scl/fi/s5mna64yf1y55fj8u2b8t/CellTuneDepot.zip?rlkey=itzwc0fued7vbkcc4wfzrkazc&dl=1) (5.3 GB ZIP)
+- [Download](https://www.dropbox.com/scl/fi/s5mna64yf1y55fj8u2b8t/CellTuneDepot.zip?rlkey=itzwc0fued7vbkcc4wfzrkazc&dl=1) (~5 GB ZIP)
 
 CellTuneDepot is organized into two main sections:
 
