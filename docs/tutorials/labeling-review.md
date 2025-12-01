@@ -10,7 +10,7 @@ permalink: /tutorials/labeling-review
 
 ## Labeling & Review 
 
-### 10B. Labeling
+### Labeling
 &nbsp;  
 
 <video width="100%" controls>
@@ -20,7 +20,7 @@ permalink: /tutorials/labeling-review
 
 ---
 
-### 10C. Add New Population
+### Add New Population
 &nbsp;  
 
 <video width="100%" controls>
@@ -31,7 +31,7 @@ permalink: /tutorials/labeling-review
 ---
 
 
-### 10D. Exit Review and Retrain Classifier
+### Exit Review and Retrain Classifier
 &nbsp;  
 
 <video width="100%" controls>

@@ -12,17 +12,21 @@ permalink: /tutorials/classification/sampling
 ## Sampling from a Classifier
 &nbsp; 
 
-### 10A. Cell Sampling
+### Cell Sampling
 &nbsp;  
 
-You can adjust the default settings for sampling.
+Here you can adjust the default sampling settings: including prioritizing specific cell types or confusions and exclude cell types or images from training. 
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorials/ClassifierSample.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/Classification_Sampling.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-> **Note:** If you get an error while loading Review, import `PopulationSetInfo` for `Pred_ALL_Classifier_1`. This will be corrected in the upcoming version 0.1.1.
+ - The default sampling settings are generally good and don't need to be adjusted.
+ - The advanced settings are outlined in the [classification sampling documentation](/documentation/classification/sampling)
+ 
 
 ---
 
+After sampling, a ***cell review*** is generated, allowing the user to review and label the sampled cells.
+Proceed to [Labeling & Review](/tutorials/labeling-review).

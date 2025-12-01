@@ -10,7 +10,7 @@ permalink: /tutorials/populations
 ## Populations 
 
 
-## Step 5: Create Empty Population Set
+## Create Empty Population Set
 &nbsp;  
 
 Create an empty population set. You can add populations to it (e.g., from gating).
@@ -24,7 +24,7 @@ Create an empty population set. You can add populations to it (e.g., from gating
 
 
 
-## Step 7: Import Population Set
+## Import Population Set
 &nbsp;  
 
 Population sets can be imported from files (CSV). Columns should be `(image, cellID, class)`.  

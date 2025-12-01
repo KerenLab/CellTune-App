@@ -65,6 +65,7 @@ Adjust segmentation opacity and hover fill through segment controls.
   <source src="{{ '/assets/tutorials/AdjustSegmentation.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+<!-- AdjustSegmentationOpacity_2.mp4 -->
 
 > Tip: 0.4 is our favorite opacity setting for the segmentation.
 

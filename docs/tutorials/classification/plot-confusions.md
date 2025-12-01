@@ -16,7 +16,11 @@ Plot a confusion matrix showing the agreements and disagreements between the two
 &nbsp;  
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorials/PlotConfusions.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/Classification_PlotConfusions.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
+
+- You can optionally filter out images prior to plotting. 
+
+---

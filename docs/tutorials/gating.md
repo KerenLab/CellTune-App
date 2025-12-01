@@ -10,7 +10,7 @@ permalink: /tutorials/gating
 ## Gating 
 
 
-### 6A. Gating Basics
+### Gating Basics
 &nbsp;  
 
 Select the feature that you want to gate and click **Apply Gate**.  
@@ -25,22 +25,22 @@ Gating occurs across the entire project currently. (We are adding the capability
 
 ---
 
-### 6B. Adjust Gating Appearance
+### Adjust Gating Appearance
 &nbsp;  
 
 You can adjust the opacity and whether gated cells are filled in.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorials/AdjustGatingOpacity.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/AdjustGatingOpacityFillVisibility.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-Currently gated cells can only be displayed in the color cyan. (We are adding the capability to edit this).
+*Currently gated cells can only be displayed in the color cyan. (We are adding the capability to edit this).*
 
 ---
 
 
-## 6C. Create Population from Gating
+### Create Population from Gating
 &nbsp;  
 
 Turn a finished gate into a reusable population for downstream analysis.
@@ -54,7 +54,7 @@ Turn a finished gate into a reusable population for downstream analysis.
 
 ---
 
-## 6D. Filter Gate by Population
+### Filter Gate by Population
 &nbsp;  
 
 Use existing populations to constrain the scope of a new gate—ideal for refining subsets or comparing phenotypes.
@@ -69,7 +69,7 @@ Use existing populations to constrain the scope of a new gate—ideal for refini
 
 ---
 
-## 6E. Edit Gating Expression
+### Edit Gating Expression
 &nbsp;  
 
 Combine gates with AND (`&`), OR (`|`), and NOT (`!`) operators to orchestrate complex logic.
