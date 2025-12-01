@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Feature Engineering
+title: Features
 parent: Tutorials
 nav_order: 3
-permalink: /tutorials/feature-engineering
+permalink: /tutorials/features
 ---
 
 ---
 
-## Step 4: Features
+## Features
 
-### 4A. Compute Features
+### Calculate Features
 &nbsp;  
 
-Features must be computed or imported in order to enable gating, classification, and hover info.
+Features must be computed or imported in order to enable gating, classification, and cell expression hover info.
 
 <video width="100%" controls>
   <source src="{{ '/assets/tutorial/CalculateFeatures.mp4' | relative_url }}" type="video/mp4">
@@ -22,11 +22,11 @@ Features must be computed or imported in order to enable gating, classification,
 
 ---
 
-### 4B. Import Features
+### Import Features
 &nbsp;  
 
-Features can be imported via a cellTable (CSV or Parquet file).  
-The cellTable should have the columns: `(image, cellID)`.
+Features can be alternatively be imported via a cellTable (CSV or Parquet file).  
+The cellTable should have the columns: `(image, cellID)` or `(fov, cellID)`.
 
 <video width="100%" controls>
   <source src="{{ '/assets/tutorial/ImportFeatures.mp4' | relative_url }}" type="video/mp4">
@@ -35,7 +35,7 @@ The cellTable should have the columns: `(image, cellID)`.
 
 ---
 
-### 4C. Hover Legend Features
+### Hover Legend Features
 &nbsp;  
 
 Select features that will be displayed while hovering.
@@ -44,4 +44,10 @@ Select features that will be displayed while hovering.
   <source src="{{ '/assets/tutorial/HoverLegend.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+
+
+
+
 

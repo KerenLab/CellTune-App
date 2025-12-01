@@ -1,13 +1,44 @@
 ---
 layout: default
-title: Advanced Gating Tips
-parent: Population Management
-grand_parent: Tutorials
-nav_order: 6
-permalink: /tutorials/population-management/advanced-gating
+title: Gating
+parent: Tutorials
+nav_order: 5
+permalink: /tutorials/gating
 ---
 
 ---
+## Gating 
+
+
+### 6A. Gating Basics
+&nbsp;  
+
+Select the feature that you want to gate and click **Apply Gate**.  
+Shown is an example of gating CD3+ and CD4+ cells.
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorial/GatingCD3CD4.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Gating occurs across the entire project currently. (We are adding the capability to limit to the current image).
+
+---
+
+### 6B. Adjust Gating Appearance
+&nbsp;  
+
+You can adjust the opacity and whether gated cells are filled in.
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorial/AdjustGatingOpacity.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Currently gated cells can only be displayed in the color cyan. (We are adding the capability to edit this).
+
+---
+
 
 ## 6C. Create Population from Gating
 &nbsp;  
@@ -53,14 +84,4 @@ Combine gates with AND (`&`), OR (`|`), and NOT (`!`) operators to orchestrate c
 - When experimenting, duplicate the original gate first so you always have a clean baseline.
 
 ---
-
-## 6F. Iterate Quickly
-
-- **Keyboard navigation:** Arrow keys cycle through saved populations and gates without reaching for the mouse.  
-- **Opacity presets:** Store preferred segmentation/gating opacity combinations to maintain visual context while iterating.  
-- **Versioning:** Export populations at milestones (e.g., `Gating_v1.csv`) so you can roll back if a later edit overfits.
-
----
-
-Need a recap of the fundamentals? Return to [Population Management](/tutorials/population-management) for the core workflow. Once you are comfortable, keep this page open as a reference while you fine-tune gates across projects.
 

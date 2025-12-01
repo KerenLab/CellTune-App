@@ -1,16 +1,19 @@
 ---
 layout: default
-title: Workspace Tour
+title: Viewer & Interface
 parent: Tutorials
 nav_order: 2
-permalink: /tutorials/workspace-tour
+permalink: /tutorials/viewer
 ---
 
 ---
 
-## Step 3: Main Window
+## Viewer & Interface
+&nbsp; 
 
-### 3A. Select and Adjust Channels
+---
+
+### Select and Adjust Channels
 &nbsp;  
 
 Select channels and adjust channel brightness:
@@ -22,7 +25,7 @@ Select channels and adjust channel brightness:
 
 ---
 
-### 3B. Create Channel Groups
+### Create Channel Groups
 &nbsp;  
 
 Create channel groups (you can select and change groups of channels with a single click!):
@@ -39,7 +42,7 @@ If you change the channels with an existing channel group name selected, the (+)
 
 ---
 
-### 3C. Change Image 
+### Change Image 
 &nbsp;  
 
 The top left panel allows you to select different images from your project.
@@ -53,7 +56,7 @@ The top left panel allows you to select different images from your project.
 
 ---
 
-### 3D. Adjust Segmentation 
+### Adjust Segmentation 
 &nbsp;  
 
 Adjust segmentation opacity and hover fill through segment controls.
@@ -65,3 +68,31 @@ Adjust segmentation opacity and hover fill through segment controls.
 
 > Tip: 0.4 is our favorite opacity setting for the segmentation.
 
+&nbsp;  
+
+Show/Hide segmentation from `View` settings or with keyboard shortcut!
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorial/ShowHideSegmentation.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+--- 
+
+### Segment Controls & Select Cell
+&nbsp;  
+
+This video demonstrates how to adjust hover fill settings (the red highlight can switch from showing cell borders to filling the entire cell when hovering). 
+
+Cells can be selected or unselected in the viewer by pressing `Shift` + `Left Click`. Selected cells are indicated by crosshairs. 
+
+You can also select a cell by entering its ID in the segment controls, which will automatically zoom to that cell. The cell ID of the currently **hovered** cell (not selected cell) is displayed in the legend. 
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorial/SelectCell.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+*Note: Cell hover info shown in legend turned on with keyboard shortcut `Cmd` + `I`*
+
+---
