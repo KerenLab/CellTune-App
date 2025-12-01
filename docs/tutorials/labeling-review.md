@@ -14,7 +14,7 @@ permalink: /tutorials/labeling-review
 &nbsp;  
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/Labeling1.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/Labeling1.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -24,7 +24,7 @@ permalink: /tutorials/labeling-review
 &nbsp;  
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/ReviewAddNewPopulation.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ReviewAddNewPopulation.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -35,7 +35,7 @@ permalink: /tutorials/labeling-review
 &nbsp;  
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/ExitReviewRetrain.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ExitReviewRetrain.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

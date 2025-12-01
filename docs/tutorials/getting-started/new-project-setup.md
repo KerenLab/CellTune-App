@@ -15,7 +15,7 @@ permalink: /tutorials/getting-started/new-project-setup
 Create a new project using the demo data:
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/NewProjectSetup.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/NewProjectSetup.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

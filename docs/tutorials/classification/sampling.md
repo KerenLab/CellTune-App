@@ -18,7 +18,7 @@ permalink: /tutorials/classification/sampling
 You can adjust the default settings for sampling.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/ClassifierSample.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ClassifierSample.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

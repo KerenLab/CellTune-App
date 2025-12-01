@@ -17,7 +17,7 @@ After downloading, unzip the folder.
 We recommend extracting the `CellTune_Store` directory inside to your **Documents** folder.  
 **Important:** Avoid extracting to cloud-synced folders (such as Dropbox, OneDrive, or Google Drive), as constant syncing can cause severe slowdowns when generating zarr files during project setup. If you must use a synced folder, disable syncing until the project is fully generated. 
 
-![Demo Data Folder Contents]({{ '/assets/tutorial/demo_store_folder.png' | relative_url }})
+![Demo Data Folder Contents]({{ '/assets/tutorials/demo_store_folder.png' | relative_url }})
 
 ---
 
@@ -65,7 +65,7 @@ The `Images/` folder contains **75 subfolders**, each corresponding to a single 
 
 Each FOV in this dataset has 73 channel files + 2 segmentation files.
 
-![Single Image Folder Contents]({{ '/assets/tutorial/single_image_folder.png' | relative_url }})
+![Single Image Folder Contents]({{ '/assets/tutorials/single_image_folder.png' | relative_url }})
 &nbsp;  
 
 These files will be loaded directly into CellTune when starting a new project.

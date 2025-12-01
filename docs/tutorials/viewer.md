@@ -19,7 +19,7 @@ permalink: /tutorials/viewer
 Select channels and adjust channel brightness:
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/AdjustChannels.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/AdjustChannels.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -31,7 +31,7 @@ Select channels and adjust channel brightness:
 Create channel groups (you can select and change groups of channels with a single click!):
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/ChannelGroups.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ChannelGroups.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -48,7 +48,7 @@ If you change the channels with an existing channel group name selected, the (+)
 The top left panel allows you to select different images from your project.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/ChangeImage.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ChangeImage.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -62,7 +62,7 @@ The top left panel allows you to select different images from your project.
 Adjust segmentation opacity and hover fill through segment controls.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/AdjustSegmentation.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/AdjustSegmentation.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -72,7 +72,7 @@ Adjust segmentation opacity and hover fill through segment controls.
 
 Show/Hide segmentation from `View` settings or with keyboard shortcut!
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/ShowHideSegmentation.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ShowHideSegmentation.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -88,7 +88,7 @@ Cells can be selected or unselected in the viewer by pressing `Shift` + `Left Cl
 You can also select a cell by entering its ID in the segment controls, which will automatically zoom to that cell. The cell ID of the currently **hovered** cell (not selected cell) is displayed in the legend. 
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/SelectCell.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/SelectCell.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

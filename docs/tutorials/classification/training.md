@@ -18,7 +18,7 @@ Train the CellTune classifier using the features and labels. Please be patient.
 &nbsp;  
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/ClassifierTraining.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ClassifierTraining.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 &nbsp;  
@@ -34,14 +34,14 @@ You can select a population set and color the cells by the populations.
 Here we select the predictions from the classifier and visualize the predictions.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/VisualizePredictions.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/VisualizePredictions.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 You can put one population on and make it transparent to compare it to the protein expression as shown:
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/VisualizePopulationsOpacity.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/VisualizePopulationsOpacity.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

@@ -17,7 +17,7 @@ This action will create a new population set called `Labels_{Classifier_Name}`.
 &nbsp;  
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/ClassifierAddLabels.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ClassifierAddLabels.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

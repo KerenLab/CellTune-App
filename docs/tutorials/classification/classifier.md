@@ -17,6 +17,6 @@ The features were computed or imported previously in Step 4.
 &nbsp;  
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/CreateClassifier.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/CreateClassifier.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>

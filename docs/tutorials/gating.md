@@ -17,7 +17,7 @@ Select the feature that you want to gate and click **Apply Gate**.
 Shown is an example of gating CD3+ and CD4+ cells.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/GatingCD3CD4.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/GatingCD3CD4.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -31,7 +31,7 @@ Gating occurs across the entire project currently. (We are adding the capability
 You can adjust the opacity and whether gated cells are filled in.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/AdjustGatingOpacity.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/AdjustGatingOpacity.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -46,7 +46,7 @@ Currently gated cells can only be displayed in the color cyan. (We are adding th
 Turn a finished gate into a reusable population for downstream analysis.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/GatingCreatePopulation.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/GatingCreatePopulation.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -60,7 +60,7 @@ Turn a finished gate into a reusable population for downstream analysis.
 Use existing populations to constrain the scope of a new gate—ideal for refining subsets or comparing phenotypes.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/GatingPopulationFilter.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/GatingPopulationFilter.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -75,7 +75,7 @@ Use existing populations to constrain the scope of a new gate—ideal for refini
 Combine gates with AND (`&`), OR (`|`), and NOT (`!`) operators to orchestrate complex logic.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorial/GatingEditExpression.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/GatingEditExpression.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
