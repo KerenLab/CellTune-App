@@ -4,7 +4,7 @@ title: Advanced Gating
 parent: Gating
 grand_parent: Tutorials
 nav_order: 2
-permalink: /tutorials/gating/add-celltype
+permalink: /tutorials/gating/advanced-gating
 ---
 
 ---

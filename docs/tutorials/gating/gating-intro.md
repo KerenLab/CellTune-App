@@ -8,7 +8,7 @@ permalink: /tutorials/gating/gating-intro
 ---
 
 ---
-## Gating Basics
+## Intro to Gating
 
 
 ### Applying Gates
