@@ -10,7 +10,7 @@ permalink: /tutorials/populations
 ## Populations 
 
 
-## Create Empty Population Set
+### Create Empty Population Set
 &nbsp;  
 
 Create an empty population set. You can add populations to it (e.g., from gating).
@@ -34,7 +34,7 @@ You can also type the desired name of the population set before pressing the `+`
 
 
 
-## Import Population Set
+### Import Population Set
 &nbsp;  
 
 Population sets can be imported from files (CSV). Columns should be `(image, cellID, class)`.  
@@ -46,5 +46,18 @@ Here we are importing labels to be used for training a classifier later. We can 
 </video>
 
 A cell can belong to multiple populations. For population sets that are used as labels for training classifiers we encourage limiting a cell to one population.
+
+---
+
+
+### Adjust Visibility & Opacity for Populations
+&nbsp;  
+
+Population set visibility can be toggled using the eye icon in the top-right corner.  
+Individual populations can also be turned on or off.  
+Population opacity is controlled in the Segment Controls panel in the bottom-right.  
+
+[An example is shown in the Training section of the tutorial](/tutorials/classification/training#compare-predictions-to-images-of-protein-expression). 
+
 
 ---

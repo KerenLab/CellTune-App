@@ -41,7 +41,7 @@ Here we select the predictions from the classifier and visualize the predictions
   Your browser does not support the video tag.
 </video>
 
-
+---
 
 ### Compare Predictions to Images of Protein Expression 
 Here we make one population visible and make it transparent to compare it to the protein expression as shown:

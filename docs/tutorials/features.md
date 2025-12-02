@@ -41,7 +41,7 @@ Features can be alternatively be imported via a cellTable (CSV or Parquet file).
 The cellTable should have the columns: `(image, cellID)` or `(fov, cellID)`.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorials/ImportFeatures.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/Import_Cell_Features.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

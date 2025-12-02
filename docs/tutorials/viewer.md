@@ -8,20 +8,25 @@ permalink: /tutorials/viewer
 
 ---
 
-## Viewer & Interface
+## Viewer & Interface 
 &nbsp; 
 
 ---
 
-### Select and Adjust Channels
+### Viewer Basics: Select / Adjust Channels, Change Image, & Zoom
 &nbsp;  
 
-Select channels and adjust channel brightness:
+On the left side you have panels for the Images and Channels.
+Select channels, either with the dropdown or by typing in the box.
+Adjust channel brightness with the sliders.
+The top left panel allows you to select different images from your project.
 
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorials/AdjustChannels.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/ViewerBasicsChangeChannelImageZoom.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+> *Tip:* When an image is selected, you can scroll through images with the up and down arrows. You can also scroll through the channels by clicking (as if editing) and then scrolling up/down with the arrows!
 
 ---
 
@@ -40,19 +45,6 @@ To delete a channel group press the (-) button.
 If you change the channels with an existing channel group name selected, the (+) button will update the channel group.  
 > Tip: You can scroll through channel groups with the up and down arrows.
 
----
-
-### Change Image 
-&nbsp;  
-
-The top left panel allows you to select different images from your project.
-
-<video width="100%" controls>
-  <source src="{{ '/assets/tutorials/ChangeImage.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-> Tip: When an image is selected, you can scroll through images with the up and down arrows.
 
 ---
 
@@ -97,3 +89,51 @@ You can also select a cell by entering its ID in the segment controls, which wil
 *Note: Cell hover info shown in legend turned on with keyboard shortcut `Cmd` + `I`*
 
 ---
+
+### Colors and Color Blending
+&nbsp;  
+
+You can change the color of a channel with the colorbox to its left.  
+  
+When two channels overlap in the image, their colors blend.  
+There are two different modes of color blending implemented in CellTune: 
+ - `Additive` (Red + Yellow = Yellow)
+ - `Paint Mix` (Red + Yellow = Orange)
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/ViewerBlendMode.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### Segmentation Fill Borders Inclusion
+&nbsp;  
+
+When hovering over a cell (or when coloring cells by population or gate), CellTune highlights it either as a filled region or as borders only.
+By default, the filled highlight does not include the cell borders. You can change this behavior in the Advanced Settings, as demonstrated in the video below.
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/ViewerAdvancedFilledBordersIncluded.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+> Turning this setting off is recommended when working with [very large images](/tutorials/additional-tutorials/whole-slide-example). When zoomed out, most cells appear as “all borders,” so disabling border exclusion and using the filled view makes it easier to see cell colors consistently as you zoom in and out.
+
+
+--- 
+
+### Keyboard Shorcuts
+&nbsp;
+
+You can open a window that displays all available keyboard shortcuts and keep it visible while you work (especially useful if you have a second monitor).  
+
+From the menu: `Help --> Keyboard Shortcuts`
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/KeyboardShortcuts.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+----

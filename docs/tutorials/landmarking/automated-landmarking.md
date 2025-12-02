@@ -26,7 +26,9 @@ Here we gate for CD3+ T cells: CD3 high, CD4 low, CD8 low, & other non-T cell ma
 ---
 ### Visualize Automated Landmarks
 
-After creat
+After generating automated landmarks the population set will be filled.
+Only a few cells per image will be classified as landmarks - they can be seen when turning off the channels.
+
 <video width="100%" controls>
   <source src="{{ '/assets/tutorials/Landmarking_Automated_View_2.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
