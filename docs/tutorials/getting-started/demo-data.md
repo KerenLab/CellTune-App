@@ -32,6 +32,7 @@ Preprocessing followed the MAUI pipeline (Baranski et al., 2021), including back
 
 ### `CellTune_Demo_Data/`
 
+
 - `Tables/`
     - `cellTable_features_calculated.parquet`  
       Pre-computed single-cell features, including intensity, morphology, and spatial statistics.
@@ -68,7 +69,16 @@ Each FOV in this dataset has 73 channel files + 2 segmentation files.
 ![Single Image Folder Contents]({{ '/assets/tutorials/single_image_folder.png' | relative_url }})
 &nbsp;  
 
-These files will be loaded directly into CellTune when starting a new project.
+These files will be loaded directly into CellTune when starting a new project.  
+&nbsp;  
+
+The following video shows the directory structure and contents of the demo data folder:  
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/DemoDataExploration.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ---
 

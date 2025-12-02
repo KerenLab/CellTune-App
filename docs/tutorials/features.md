@@ -52,11 +52,48 @@ The cellTable should have the columns: `(image, cellID)` or `(fov, cellID)`.
 
 Select features that will be displayed while hovering.
 
+
 <video width="100%" controls>
-  <source src="{{ '/assets/tutorials/HoverLegend.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/tutorials/HoverFeaturesSelection.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
+It is recommended to [create a `Lineage` feature group](#create-feature-group) and select it. 
+
+
+By default the features will be sorted as you hover of them.
+Here, we show how you can turn this setting off:
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/HoverScanningChangeFilter.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+For example you can filter down to a few features without sorting and then by hovering you can quickly compare how the values change.
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/HoverFilter3Features.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+> For cell classification it is most useful to sort the features and see what is the top expressing features. These features are most informative with [clean data](/documentation/getting-started/data-preparation/images#pre-processing) and with the appropriate [transformation factor](/documentation/features) for your data. 
+
+---
+
+### Create Feature Group
+&nbsp;  
+
+Create a feature group that can be easily selected in different contexts (plotting, hovering, etc.).
+The `Default` feature group is the mean for all channels on each cell.
+Here we create a `Lineage` feature group.
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/Features_CreateFeatureGroup.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+--- 
 
 
 

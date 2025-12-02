@@ -9,11 +9,13 @@ permalink: /tutorials/additional-tutorials/whole-slide-example
 
 ---
 
-## Whole Slide Example
+## Whole Slide Example  
+[Demo Videos Below](#whole-slide-demo-videos)
 &nbsp;
 
-Here we show how to import **OME-TIFF whole-slide images** into CellTune.  
+Here we will show how to import **OME-TIFF whole-slide images** into CellTune.  
 The same folder organization applies to **QPTIFF** data as well.
+For more info see the [data-preparation documentation](/documentation/getting-started/data-preparation) 
 
 &nbsp;
 
@@ -35,6 +37,10 @@ Within this folder, create the following subfolders:
 Create your tables:
 - `Tables/MarkerTable.csv`
 - `Tables/CellTypeTable.csv`
+
+For instructions see documentation for MarkerTable(/documentation/getting-started/data-preparation/marker-table) and CellTypeTable(/documentation/getting-started/data-preparation/celltype-table) preparation.
+
+> You can also place any image/patient metadata tables here for organization. We plan that CellTune will utilize this data in the future.
 
 &nbsp;
 
@@ -74,8 +80,78 @@ We are actively working on improving generation speed and more effective use of 
 &nbsp;
 
 
-***Tip:*** Before using CellTune, our lab generally prefers to **pre-process the data** by converting each OME-TIFF image into a **single TIFF directory** and performing **background cleaning with [Ilastik](https://www.ilastik.org/) pixel classifiers**. This often produces cleaner inputs, making it easier to classify, and can also reduce image size significantly.
+***Tip:*** Before using CellTune, our lab generally prefers to [**pre-process the data**](/documentation/getting-started/data-preparation/images#pre-processing) by converting each OME-TIFF image into a **single TIFF directory** and performing **background cleaning with [Ilastik](https://www.ilastik.org/) pixel classifiers**. This often produces cleaner inputs, making it easier to classify, and can also reduce image size significantly.
  
+
+---
+## Whole Slide Demo Videos
+
+### Start a New Project and Select Images
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/WholeSlideSelectImages.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+--- 
+### Select Segmentation from External Directory
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/WholeSlideSelectSegmentation.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+--- 
+### Create Project (Generates Zarrs)
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/WholeSlideMonitorZarrProgress.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+--- 
+### Adjust Channels
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/WholeSlideAdjustChannels.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+--- 
+### Adjust Segmentation Opacity
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/WholeSlideAdjustSegmentationOpacity.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
+### Zoom & Pan
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/WholeSlideZoomPan.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+--- 
+
+### Calculate Features 
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/WholeSlideCalculateFeaturesDialog.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+--- 
+### Gating
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/WholeSlideZoomGating.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 
 
 

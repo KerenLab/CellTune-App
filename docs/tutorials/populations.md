@@ -20,6 +20,16 @@ Create an empty population set. You can add populations to it (e.g., from gating
   Your browser does not support the video tag.
 </video>
 
+
+You can also type the desired name of the population set before pressing the `+` button.
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/CreateEmptyPopulationSet_2.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
 ---
 
 
