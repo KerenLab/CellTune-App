@@ -33,7 +33,7 @@ Q: ***How should I label a cell that is ambiguous or has bad segmentation?***
 
 A: *We prefer to skip these cells. You may alternatively label these cells as “Ambiguous”. CellTune will ignore them during training. We strongly prefer not to train on truly ambiguous cells. If you have a reasonable preference for a label, you can assign it to that — but avoid forcing a labeling into training when the signal is unclear.*
 
-*We encourage following our lab's conventions:*
+*We encourage following our lab's [conventions](/documentation/labeling#celltype-name-conventions):*
 - *“Unidentified" = Cells that are negative for all lineage markers, lineage is unknown. [Unidentified comes up in every project and is always included in the training.]*
 - *"Garbage" = Cells that are artifacts (e.g., multi-channel aggregates, overly positive for many markers, or otherwise unusable). [By default Garbage is included in training to find other similar cells, so it should be a recurring staining issue, otherwise filter out from training]*
 - *"Ambiguous" or Skip = Cells that are ambiguous due to overlap or segmentation issues should be labeled “Ambiguous” or skipped entirely.*

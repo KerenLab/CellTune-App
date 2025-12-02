@@ -22,7 +22,9 @@ You can select a cell (`Shift` + `LClick`) and add it to a new population using 
 
 - You can give a cell multiple labels by holding the `Cmd` button while clicking on the populations in the population panel.
 
-Here we show an example of how you can label a bunch of cells manually by panning and changing channels.
+&nbsp;  
+
+Next, an example of how you can label many cells quickly by manually by panning and changing channel groups with keyboard shortcuts.
 
 <video width="100%" controls>
   <source src="{{ '/assets/tutorials/LabelMultipleCellsPanning.mp4' | relative_url }}" type="video/mp4">
@@ -30,13 +32,14 @@ Here we show an example of how you can label a bunch of cells manually by pannin
 </video>
 
 
-Here we show an example of how you can zoom out to see the whole field-of-view to identify cells for labeling manually.
+&nbsp;  
+
+Here, we show an example of how you can zoom out to see the whole field-of-view in order to identify cells for manual labeling.
 
 <video width="100%" controls>
   <source src="{{ '/assets/tutorials/LabelZoomOutIdentify.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 
 
 --- 

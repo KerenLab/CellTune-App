@@ -41,6 +41,16 @@ Here we select the predictions from the classifier and visualize the predictions
   Your browser does not support the video tag.
 </video>
 
+
+You can put the predictions on, turn the channels off, and scroll through your images.
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/Review_Predictions_Scroll.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+> *Hide the legend with the keyboard shortcut: [`Cmd` + `L`], or from the menu: [`View` -> `Legend` -> `Show/Hide Legend`]*
+
 ---
 
 ### Compare Predictions to Images of Protein Expression 
@@ -50,6 +60,16 @@ Here we make one population visible and make it transparent to compare it to the
   <source src="{{ '/assets/tutorials/VisualizePopulationsOpacity.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+Here is another example where we compare the `Goblet` cell predictions to `Mucin` channel expression:
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/Review_Predictions_WholeImage_1.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 
 ---
 
