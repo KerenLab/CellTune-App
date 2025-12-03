@@ -8,7 +8,7 @@ title: Download & Install
 &nbsp;  
 <!--Download version 0.3.0 of CellTune for your platform:  -->
 (follow [@CellTune_App](https://x.com/CellTune_App) for updates!) 
-***A new version of CellTune with big improvements is in the final stages - We do not recommend downloading earlier versions at this time, please be patient***
+***A new version of CellTune with big improvements is in the final stages - We do not recommend downloading earlier versions at this time, please be patient***  
 <!-- - [Download for macOS (Apple Silicon)](https://github.com/KerenLab/CellTune-App/releases/download/v0.3.0/CellTune-v0.3.0-macOS-arm64.dmg)
 - Download for macOS (Intel) — *coming soon*
 - [Download for Windows (GPU)](https://github.com/KerenLab/CellTune-App/releases/download/v0.3.0/CellTune-v0.3.0-Windows_GPU-setup.exe)
