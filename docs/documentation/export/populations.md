@@ -29,6 +29,4 @@ When completed successfully you should see the following:
 ![Export_Populations_Done](/assets/documentation/Export_Populations_Done.png){: width="65%"}  
 
 
-Export_Populations_Done
-
 These exported population sets and info can be easily used in downstream analyses, edited, and/or shared with collaborators.
