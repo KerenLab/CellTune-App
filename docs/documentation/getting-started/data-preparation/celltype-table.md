@@ -12,8 +12,8 @@ has_children: false
 ***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
 
 ## CellType Table
-`CellTypeTable.csv`  
-Location: *`CellTune_Store/CellTune_Data/{PROJ_NAME}/Tables/`*  
+Name:      `CellTypeTable.csv`  
+Location:  *`CellTune_Store/CellTune_Data/{PROJ_NAME}/Tables/`*  
 [Example Below](#example-celltypetablecsv)  
 
 ---
@@ -61,6 +61,7 @@ We use this as a starting point for our projects, and then make minimal adjustme
 
 ### Example CellTypeTable.csv
 
+![CellTypeTable_Screenshot](/assets/documentation/CellTypeTable_Screenshot.png){: width="100%"}  
 
 > Example table can be downloaded from the [demo data](#/tutorials/getting-started/demo-data) of the tutorials.
 
