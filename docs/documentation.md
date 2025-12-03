@@ -2,24 +2,20 @@
 layout: home
 nav_order: 3
 title: Documentation
+has_children: true
 ---
 
 ## Documentation
 &nbsp;  
-Additional documentation and screenshots are *coming soon*.  
+Welcome to the CellTune documentation!  
 
-In the meantime, see our [Tutorial](tutorials) with comprehensive videos.  
+<!--This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials) -->
+***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
 
-Also feel free to [contact us](contact) with questions.
+Here you’ll find guides for preparing your data, navigating the interface, labeling and curating cells, training classifiers, managing large imaging projects, and more.   
+The documentation is organized to follow the full CellTune workflow from start to finish.
 
----
+Also in parallel make sure to see our [Tutorials](tutorials) with comprehensive videos.  
 
-### Compatibility
+Feel free to [contact us](/contact) with questions. 
 
-CellTune currently supports non-pyramidal single-TIFF images, organized as demonstrated in the [Tutorial](tutorials).
-The recommended image size is 1024 × 1024 pixels. Larger images (tested up to 5000 × 5000 pixels) are also supported, though performance may decrease.
-Support for very large pyramidal formats (e.g., OME-TIFF, OME-ZARR) and speed improvements will be added in the coming weeks.
-
---
-
-© {{ site.time | date: '%Y' }} Weizmann Institute of Science. All rights reserved. [License](/license/)

@@ -1,0 +1,63 @@
+---
+layout: default
+title: Populations
+parent: Tutorials
+nav_order: 4
+permalink: /tutorials/populations
+---
+
+---
+## Populations 
+
+
+### Create Empty Population Set
+&nbsp;  
+
+Create an empty population set. You can add populations to it (e.g., from gating).
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/CreateEmptyPopulationSet.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+You can also type the desired name of the population set before pressing the `+` button.
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/CreateEmptyPopulationSet_2.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+---
+
+
+
+### Import Population Set
+&nbsp;  
+
+Population sets can be imported from files (CSV). Columns should be `(image, cellID, class)`.  
+Here we are importing labels to be used for training a classifier later. We can also import `PopulationSetInfo`, which includes colors, channels, and definitions for cell types (useful later).
+
+<video width="100%" controls>
+  <source src="{{ '/assets/tutorials/ImportPopulationSet&Info.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+A cell can belong to multiple populations. For population sets that are used as labels for training classifiers we encourage limiting a cell to one population.
+
+---
+
+
+### Adjust Visibility & Opacity for Populations
+&nbsp;  
+
+Population set visibility can be toggled using the eye icon in the top-right corner.  
+Individual populations can also be turned on or off.  
+Population opacity is controlled in the Segment Controls panel in the bottom-right.  
+
+[An example is shown in the Training section of the tutorial](/tutorials/classification/training#compare-predictions-to-images-of-protein-expression). 
+
+
+---
