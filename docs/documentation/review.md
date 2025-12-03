@@ -9,6 +9,8 @@ permalink: /documentation/review
 ---
 ## Review & Curation
 
+***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+
 
 ### CellTune Review
 Review is the step where you go through a curated list of cells—one by one—and confirm, correct, or assign their cell type labels.

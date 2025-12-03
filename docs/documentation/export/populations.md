@@ -11,6 +11,8 @@ permalink: /documentation/export/populations
 
 ## Export Populations 
 
+***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+
 Population sets can be exported through Export → Population Set.
 CellTune will save both:
 - the population set file ('.csv' or '.parquet'), and

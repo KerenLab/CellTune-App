@@ -11,6 +11,8 @@ permalink: /documentation/getting-started/data-preparation
 
 ## Data Preparation
 
+***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+
 *Before starting with CellTune, you’ll just need to organize your* ***multiplexed images*** *and* ***segmentations***. 
 
 We highly recommend [pre-processing your images](/documentation/getting-started/data-preparation/images#pre-processing) to clean out background, noise, and artifacts. 

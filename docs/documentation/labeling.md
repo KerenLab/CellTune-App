@@ -25,13 +25,16 @@ We also highly encourage following our lab’s conventions for labeling ambiguou
 - **“Ambiguous”** or Skip = Cells that are ambiguous due to overlap or segmentation issues should be labeled “Ambiguous” or skipped entirely.
 
 ### Labeling by Cell
-Requires that a cell is selected
+<!--Requires that a cell is selected
 Link to labeling selected cell / create population
 
-Labeling toolbar
+Labeling toolbar -->
+
+***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+
 
 ### Labeling by Population
 There is interest in a mode where the user would be able to select a population for labeling and then all cells clicked on would be assign to that population. E.g. Labeling mode set to population, select CD8T, then every cell clicked on gets labeled as CD8T. It is on our short-list of new features. 
 
 ### Other 
-Cells can also be assigned to populations through Gating, Automated Landmarking, and 
+<!---Cells can also be assigned to populations through Gating, Automated Landmarking, and -->

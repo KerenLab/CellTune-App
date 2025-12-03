@@ -13,4 +13,5 @@ permalink: /documentation/classification/training
 &nbsp; 
 
 ## Classification 
+***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
 

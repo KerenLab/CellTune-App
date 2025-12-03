@@ -14,4 +14,5 @@ permalink: /documentation/classification/sampling
 
 ## Classification 
 
+***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
 
