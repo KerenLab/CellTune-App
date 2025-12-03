@@ -12,7 +12,7 @@ has_children: false
 
 ## Marker Table  
 [Example Below](#example-markertablecsv)
-***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
 
 Preparing the `MarkerTable` is *optional*. It usually takes about 10 minutes. 
 We find it helps us to organize our project's panel and our prior knowledge about expression.

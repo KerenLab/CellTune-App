@@ -10,8 +10,9 @@ permalink: /documentation/features
 
 ## Features
 
-***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
 
+![Menu_Export_Image](/assets/documentation/Menu_Export_Image.png){: width="35%"}  
 
 
 

@@ -19,7 +19,7 @@ Together, CellTune and CellTuneDepot provide a powerful toolkit for classifying 
 ## Getting Started
 >[Download & Install](download)  
 >[Documentation](documentation)  
->[Tutorials](tutorials)  
+>[Tutorials](/tutorials)  
 >[CellTuneDepot](celltunedepot)  
 >[Manuscript](citation)  
 

@@ -9,5 +9,5 @@ permalink: /documentation/populations
 ---
 ## Populations 
 
-***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
 

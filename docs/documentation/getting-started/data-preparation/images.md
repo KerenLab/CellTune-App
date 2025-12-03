@@ -11,7 +11,7 @@ has_children: false
 ---
 
 ## Format & Organize Images
- ***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+ ***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
 
 
 ### Image Formats

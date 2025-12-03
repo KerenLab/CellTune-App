@@ -30,7 +30,7 @@ Link to labeling selected cell / create population
 
 Labeling toolbar -->
 
-***This documentation is currently undergoing updates right now... please see the [Tutorials](tutorials)***
+***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
 
 
 ### Labeling by Population
