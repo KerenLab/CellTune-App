@@ -80,13 +80,14 @@ Cells can be selected or unselected in the viewer by pressing `Shift` + `Left Cl
 
 You can also select a cell by entering its ID in the segment controls, which will automatically zoom to that cell. The cell ID of the currently **hovered** cell (not selected cell) is displayed in the legend. 
 
+*Note: Cell hover info shown in legend turned on with keyboard shortcut `Cmd` + `I`*
+
 <video width="100%" controls>
   <source src="{{ '/assets/tutorials/SelectCell.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 
-*Note: Cell hover info shown in legend turned on with keyboard shortcut `Cmd` + `I`*
 
 ---
 
