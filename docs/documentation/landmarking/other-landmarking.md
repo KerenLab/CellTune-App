@@ -17,7 +17,7 @@ If you prefer you can simply manually label cells directly from the images.
 
 *Reminder:* you need >10 labels per class to start. You can monitor the population counts [From the menu: `Populations -> Population Counts`]
 
-The skills needed to do so are shown in the[manual landmarking](/tutorials/landmarking/manual-landmarking) and [clustering-based landmarking](/tutorials/landmarking/clustering-landmarking) tutorials
+The skills needed to do so are shown in the [manual landmarking](/tutorials/landmarking/manual-landmarking) and [clustering-based landmarking](/tutorials/landmarking/clustering-landmarking) tutorials
 
 - First you need to create an empty Landmarks population set.
 - Then select a cell (`Shift` + `LClick`) and add it to a new population using the (`+`) button in the labeling toolbar.
