@@ -9,7 +9,7 @@ permalink: /documentation/gating
 ---
 ## Gating 
 
-![Viewer_0](/assets/documentation/Viewer_0.png){: width="35%"}   
+![Gating_Panel](/assets/documentation/Gating_Panel.png){: width="35%"}   
 
 Gating_Bold_Feature_Dropdown.png
 Gating_CD45_Landmarking.png
