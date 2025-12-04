@@ -42,10 +42,11 @@ This will open the dialog where you can select channels to calculate features on
 - It is currently recommended to use 16 cores or less for very large images. 
 
 In the advanced features you can control the distance (microns) that erode and dilate features are calculated at:
+
 &nbsp;
 ![ComputeFeatures_Advanced](/assets/documentation/ComputeFeatures_Advanced.png){: width="35%"}  
 
-It will take some time, you will see a progress bar 
+Select `OK` to calculate. It will take some time, you should see a progress bar:
 &nbsp;
 ![ComputeFeatures_ProgressStarting](/assets/documentation/ComputeFeatures_ProgressStarting.png){: width="35%"}  
 > *Please note- our progress bars are currently being overhauled, so you may encounter the progress not showing updates properly - do not worry it is still working*.
