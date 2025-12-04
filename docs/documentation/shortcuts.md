@@ -11,6 +11,8 @@ permalink: /documentation/shortcuts
 
 Keyboard shortcuts are an essential part of working efficiently in CellTune. They let you change and adjust the channels visible, review, and navigate far faster than using the mouse alone. In this section, we show screenshots of the keyboard shortcuts, so you can learn how to significantly speed up your labeling workflow.
 
+Access the keyboard shortcuts window through Help -> Keyboard Shortcuts:
+
 ![KeyboardShortcuts_Menu](/assets/documentation/Menu_KeyboardShortcuts.png){: width="65%" }  
 
 The keyboard shortcuts window can stay open while you are working for quick reference (ideally on a second monitor!).
