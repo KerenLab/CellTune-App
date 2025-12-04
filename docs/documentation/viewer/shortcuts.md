@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Keyboard Shortcuts
-parent: Viewer
+parent: Viewer & Interface
 grand_parent: Documentation
 nav_order: 5
 permalink: /documentation/viewer/shortcuts
