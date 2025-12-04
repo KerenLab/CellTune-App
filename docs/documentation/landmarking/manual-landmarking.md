@@ -23,7 +23,7 @@ You can keep track of how many cells are still passing all of your gates in the 
 
 After all these gates you will be left with a subset of cells that are highly likely (>90%) to be correctly classified. We still sample and review them, to be 100% certain, and since we do not need all of these. 
 
-[An example of manual landmarking](/tutorial/landmarking/manual-landmarking) is shown in the tutorial.
+[An example of manual landmarking](/tutorials/landmarking/manual-landmarking) is shown in the tutorial.
 
 
 ### Which proteins are expressed on a cell?

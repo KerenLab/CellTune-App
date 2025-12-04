@@ -85,6 +85,12 @@ Populations can be created through labeling, gating, classification predictions,
 When populations are available you will see their names, colors, and a visibility icon for toggling the population on/off.
 ![View_Prediction_Populations](/assets/documentation/View_Prediction_Populations.png)
 
+If a cell is selected, the populations it is assigned to will be highlighted in the populations panel.
+Clicking on a population when a cell is selected will assign the cell to that population. It will also by default remove other assignments in the same population set, unless you hold `Cmd` for multi-selection. `Cmd` can also be used to deselect a population. 
+
+If a cell is not selected, then populations can be clicked on and selected for use in gating population filter.
+You can also select a range of populations with `Shift` and select all with `Cmd + A`.
+
 
 ### Populations Info
 
