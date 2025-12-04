@@ -19,22 +19,47 @@ This documentation section introduces the Gating panel and explains its various 
 ### The Gating Panel
 ![Gating_Panel](/assets/documentation/Gating_Panel.png){: width="35%"}   
 
-1. First, you select the data type (*Currently only Cell gating is supported.*)
 
-2. Then you select the feature you want to gate by.
-- To the right of the feature dropdown is a filter button so you can filter down the features and not be overwhelmed by scrolling through all the spatial features calculated.
-- You can also type in the box to select a feature (press Enter when done typing).
+1. Select the data type.
+(Currently, only cell-level gating is supported.)
 
-3. Un
+2. Choose a feature to gate by.
+	- Use the dropdown to select a feature.
+	- Click the filter icon to narrow the list so you aren’t overwhelmed by all spatial features.
+	- You can also type directly into the box and press Enter to select a feature.
+
+3. View the histogram.
+	- Once a feature is selected, a histogram appears. Adjust the gate by dragging the sliders or by clicking the threshold values and editing them directly. The gated cells update instantly.
+
+4. Use the gated cells.
+	When satisfied with your gate, you can:
+	- Apply Gate to add additional gates on top of it.
+	- Create Population from the gated cells.
+	- Sample & Review cells from the gate for landmarking or verification.
+
+**Buttons in the Gating Panel:**
+- Apply Gate: Makes the current gate persistent and adds it to the gating expression; allows stacking multiple gates.
+- Remove Gate: Removes the current gate.
+- View All Gates: Opens a table showing all active gates and their thresholds.
+![Gating_View_All_Gates](/assets/documentation/Gating_View_All_Gates.png){: width="35%"}
+- Clear All Gates: Removes every applied gate.
+- Populations Filter: Applies gating only to the currently selected populations.
+- Clear Populations: Removes the population filter.
+- Create Population: Creates a new population from the currently gated cells.
+- Sample & Review: Samples all the cells from the current gate and creates a review from them. (You should use randomization - see [Review Documentation](/documentation/review))
+
+
+### Gating Visibility & Opacity
+You can adjust whether the gating color fills the selected cells or only shows their borders, as well as the gating opacity. At the top of the gating panel is a visibility icon, you can toggle on/off the gating. If it is on it will still be visible when the gating panel is minimized.  
+
+
 ### Gating Histogram Plot Settings
+To the right of the histogram there is a settings icon you can click on to edit the histogram settings:
+
 ![Gating_Plot_Settings](/assets/documentation/Gating_Plot_Settings.png){: width="35%"}
 - Histogram Bins
 - Min and Max of the range
 - Whether to exclude zero values from the histogram (effectively min range 0.00001)
-
-
-You can view all the gates you have set at any time by clicking `View All Gates`:
-![Gating_View_All_Gates](/assets/documentation/Gating_View_All_Gates.png){: width="35%"}
 
 
 
