@@ -13,12 +13,13 @@ permalink: /documentation/viewer/segment-controls
 &nbsp; 
 
 At the bottom right of the interface is the Segment Controls Panel.
-![SegmentControls_Panel](/assets/documentation/SegmentControls_Panel.png){: width="55%"}  
+
+![SegmentControls_Panel](/assets/documentation/SegmentControls_Panel.png){: width="35%"}  
 
 ### Selected Cell
-You can navigate to a cell by typing its cellID into the 
+You can navigate to a cell by typing its cellID into the `Selected Cell` text box.
 By default the cell will be marked with white crosshair and the viewer will zoom and center on the cell.
-You can change these settings with the checkboxes.
+You can change these settings with the checkboxes below.
 
 > *Note: If a cell is near the edge of the image, it won't be perfectly centered on the screen.*
 
@@ -26,10 +27,9 @@ If you manually select a cell by using `Shift + LClick` on the cell, its ID will
 
 
 ### Adjust Alpha (Opacity) and Fill
-&nbsp;  
 
 Adjust segmentation, population, and gating opacity using the sliders.
-You can 
+You can manually set the opacity by editing the number at the right end of the slider.
 
 > Tip: 0.4 is our favorite opacity setting for the segmentation.
 
