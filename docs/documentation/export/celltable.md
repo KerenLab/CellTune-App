@@ -17,7 +17,7 @@ CellTune supports `.csv`, `.parquet`, and `AnnData` outputs, making it easy to c
 
 1. Export the CellTable through Export → Cell Table.
 
-    ![Menu_Export_CellTable](/assets/documentation/Menu_Export.png){: width="35%"}  
+![Menu_Export_CellTable](/assets/documentation/Menu_Export_CellTable.png){: width="35%"}  
 
 2. This will open the following dialog:
 

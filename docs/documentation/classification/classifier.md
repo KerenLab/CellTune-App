@@ -38,3 +38,10 @@ This will open the following dialog:
 
 Your classifier is created and will appear in the classification panel.
 
+
+When you create a classifier, a population set will be created for its labels called 'Labels_{CLASSIFIER_NAME}'.
+
+![Classification_Create_PopulationSet](/assets/documentation/Classification_Create_PopulationSet.png){: width="35%"} 
+
+You will add labels to this population set in the [next section]/(/documentation/classification/add-labels).  
+

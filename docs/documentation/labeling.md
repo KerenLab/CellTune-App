@@ -2,7 +2,7 @@
 layout: default
 title: Labeling
 parent: Documentation
-nav_order: 4
+nav_order: 5
 permalink: /documentation/labeling
 ---
 
@@ -30,7 +30,7 @@ Link to labeling selected cell / create population
 
 Labeling toolbar -->
 
-***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
+
 
 
 ### Labeling by Population
@@ -38,3 +38,6 @@ There is interest in a mode where the user would be able to select a population 
 
 ### Other 
 <!---Cells can also be assigned to populations through Gating, Automated Landmarking, and -->
+
+![Viewer_0](/assets/documentation/Viewer_0.png){: width="35%"}   
+
