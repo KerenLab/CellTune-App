@@ -18,8 +18,8 @@ has_children: false
 - Segmentation **label images** are required for CellTune. [Pixels values indicate the cell IDs, 0=background.]
 - Segmentation should be single TIFF format (2D)
 - Segmentation must be the same size as corresponding channel images.
-- Data type should be integer type: uint16 or uint32
-> (*int16 and int32 should also work*)
+- Data type should be integer type: `uint16` or `uint32`
+> (*`int16` and `int32` should also work*)
 
 
 ---
@@ -27,7 +27,7 @@ has_children: false
 ### Segmentation Organization
 
 Segmentation can be stored in a new separate folder, we recommend `/CellTune_Data/{PROJ_NAME}/Segmentations`
-- Names should be {IMAGE_NAME}_segmentation_labels.tif (e.g. Control_01_FOV_1_segmentation_labels.tif)
+- Names should be `{IMAGE_NAME}_segmentation_labels.tif` (e.g. `Control_01_FOV_1_segmentation_labels.tif`)
 
 See [whole slide example in the tutorial](/tutorials/additional-tutorials/whole-slide-example)
 

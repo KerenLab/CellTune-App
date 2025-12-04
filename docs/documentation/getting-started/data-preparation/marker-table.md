@@ -12,13 +12,14 @@ has_children: false
 
 ## Marker Table  
 
-**Example MarkerTable.csv:**
-![MarkerTable_Screenshot](/assets/documentation/MarkerTable_Screenshot.png){: width="95%"}  
-
-
 Preparing the `MarkerTable` is *optional*. It usually takes about 10 minutes. 
 We find it helps us to organize our project's panel and our prior knowledge about expression.
 It is also great for easily sharing with Collaborators. Currently it is for the user's benefit only, but we plan that CellTune will read and incorporate the table in the future to automate processes - so we highly recommend making it. 
+
+**Example MarkerTable.csv:**
+
+![MarkerTable_Screenshot](/assets/documentation/MarkerTable_Screenshot.png){: width="95%"}  
+
 
 ### Marker Names
 
