@@ -10,11 +10,11 @@ permalink: /documentation/populations
 ## Populations 
 
 
-Populations
+![Menu_Populations](/assets/documentation/Menu_Populations.png){: width="35%"}   
 
-![Viewer_0](/assets/documentation/Viewer_0.png){: width="35%"}   
 
-Menu_PopulationCounts.png
+![Menu_PopulationCounts](/assets/documentation/Menu_PopulationCounts.png){: width="35%"}   
+
 
 Import_PopulationSetInfo_CellTypeTable.png
 Import_PopulationsInfo_Dialog.png
