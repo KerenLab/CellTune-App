@@ -32,7 +32,6 @@ Feature_Selection_Regions.png
 Features_Filter_Gating.png
 Features_Filter_Gating_Dropdown.png
 Features_Filter_Gating_Dropdown_Full.png
-![Viewer_0](/assets/documentation/Viewer_0.png){: width="35%"}   
 
 
 
