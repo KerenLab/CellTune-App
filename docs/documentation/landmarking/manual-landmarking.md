@@ -24,7 +24,8 @@ You can keep track of how many cells are still passing all of your gates in the 
 
 After all these gates you will be left with a subset of cells that are highly likely (>90%) to be correctly classified. We still sample and review them, to be 100% certain, and since we do not need all of these. 
 
-[An example of manual landmarking](/tutorials/landmarking/manual-landmarking/) is shown in the tutorial.
+[An example of manual landmarking](/tutorials/landmarking/manual-landmarking) is shown in the tutorial.
+
 
 ### Which proteins are expressed on a cell?
 If you are not sure which proteins are generally expressed for a given celltype in your data, you can do an [initial data exploration / clustering](/documentation/data-exploration) or you can gate, create a population from the gate, and then [plot the mean expression](/documentation/data-exploration/plot-expression) of the gated cells across all lineage markers.
