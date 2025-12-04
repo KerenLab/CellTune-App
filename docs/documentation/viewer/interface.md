@@ -137,16 +137,32 @@ You can select a channel group using the dropdown, or more efficiently using the
 
 ### Populations Panel
 
+The Populations Panel is found at the top right of the interface. 
 
-Populations_Panel.png
+![Populations_Panel](/assets/documentation/Populations_Panel.png)
 
+- The eye icon at the top toggles the visibility of all populations. 
 
+- To the right of the word 'Set' is a dropdown box you can use to select population sets.
+- You can type in the box and press the `+` button to create an empty population with a given name, or just press the `+` button and a default name will be given.
+- You can delete the population set with the `-` button.
+
+Populations can be created through labeling, gating, classification predictions, etc. Or they can be imported. 
+
+When populations are available you will see their names, colors, and a visibility icon for toggling the population on/off.
+![View_Prediction_Populations](/assets/documentation/View_Prediction_Populations.png)
+
+For more info, see the [Populations Documentation.](/documentation/populations)
 
 ---
 
 ### Gating Panel
 
-Gating_Panel.png
+The Gating Panel is just below the populations. Here you can set thresholds on numerical features to filter and group cell populations.
+
+![Gating_Panel](/assets/documentation/Gating_Panel.png)
+
+For more info, see the [Gating Documentation.](/documentation/gating)
 
 
 ---
@@ -154,7 +170,11 @@ Gating_Panel.png
 ### Classification Panel
 
 
-Classification_panel.png
+The Classification Panel is just below gating. Here you can create classifiers, add labels to them, train them, plot confusion matrix for their models, and sample cells for labeling. 
+
+![Classification_panel](/assets/documentation/Classification_panel.png)
+
+For more info, see the [Classification Documentation.](/documentation/classification)
 
 
 ---
