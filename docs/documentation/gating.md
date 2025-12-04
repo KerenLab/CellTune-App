@@ -21,7 +21,6 @@ Gating_Expression_3.png
 Gating_Expression_4.png
 Gating_Expression_Edit_After.png
 Gating_Expression_OR.png
-Gating_Panel.png
 Gating_Plot_Settings.png
 Gating_Population_Filter.png
 Gating_PopulationFilter_FullView.png
