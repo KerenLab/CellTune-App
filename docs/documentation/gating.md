@@ -25,8 +25,14 @@ This documentation section introduces the Gating panel and explains its various 
 
 2. Choose a feature to gate by.
 	- Use the dropdown to select a feature.
-	- Click the filter icon to narrow the list so you aren’t overwhelmed by all spatial features.
 	- You can also type directly into the box and press Enter to select a feature.
+	- Click the filter icon to narrow the list so you aren’t overwhelmed by all spatial features.
+	
+	Before filtering:
+	![Features_Filter_Gating_Dropdown_Full](/assets/documentation/Features_Filter_Gating_Dropdown_Full.png){: width="35%"} 
+	After filtering:  
+	![Features_Filter_Gating_Dropdown](/assets/documentation/Features_Filter_Gating_Dropdown.png){: width="35%"}   
+
 
 3. View the histogram.
 	- Once a feature is selected, a histogram appears. Adjust the gate by dragging the sliders or by clicking the threshold values and editing them directly. The gated cells update instantly.
