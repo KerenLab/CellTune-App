@@ -11,12 +11,11 @@ permalink: /documentation/features
 ## Features
 
 
-![Menu_Export_Image](/assets/documentation/Menu_Export_Image.png){: width="35%"}  
+![Menu_CalculateFeatures](/assets/documentation/Menu_CalculateFeatures.png){: width="35%"}  
 
 
+![Menu_Create_Feature_Group](/assets/documentation/Menu_Create_Feature_Group.png){: width="35%"}  
 
-Features
-Menu_CalculateFeatures.png
 
 Menu_Create_Feature_Group.png
 ComputeFeatures_Advanced.png
