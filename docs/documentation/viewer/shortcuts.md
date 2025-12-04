@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Keyboard Shortcuts
-parent: Documentation
-nav_order: 11
-permalink: /documentation/shortcuts
+parent: Viewer
+grand_parent: Documentation
+nav_order: 5
+permalink: /documentation/viewer/shortcuts
 ---
 
 ---

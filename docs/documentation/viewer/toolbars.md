@@ -13,3 +13,4 @@ permalink: /documentation/viewer/toolbars
 &nbsp; 
 
 
+Toolbars_0.png

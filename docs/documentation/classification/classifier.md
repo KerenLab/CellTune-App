@@ -31,3 +31,10 @@ This will open a dialog the following dialog:
 - We only select `Cell Counts` features for Regions (Those two feature types are selected for you by default in the Region tab). Since these are binary masks, it is sufficient to know how much of the cell is in the mask. 
 
 
+
+When you create a classifier, a population set will be created for its labels called 'Labels_{CLASSIFIER_NAME}'.
+
+![Classification_Create_PopulationSet](/assets/documentation/Classification_Create_PopulationSet.png){: width="35%"} 
+
+You will add labels to this population set in the [next section]/(/documentation/classification/add-labels).  
+

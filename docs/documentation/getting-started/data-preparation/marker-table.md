@@ -11,8 +11,10 @@ has_children: false
 ---
 
 ## Marker Table  
-[Example Below](#example-markertablecsv)
-***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
+
+**Example MarkerTable.csv:**
+![MarkerTable_Screenshot](/assets/documentation/MarkerTable_Screenshot.png){: width="35%"}  
+
 
 Preparing the `MarkerTable` is *optional*. It usually takes about 10 minutes. 
 We find it helps us to organize our project's panel and our prior knowledge about expression.
@@ -29,12 +31,6 @@ It is also great for easily sharing with Collaborators. Currently it is for the 
 ---
 
 ### Lineage Indicator
-
-
----
-
-### Example MarkerTable.csv
-
 
 
 ---

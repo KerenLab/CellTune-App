@@ -10,9 +10,6 @@ has_children: true
 ---
 ## Getting Started
 
-***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
-
-
 
 
 

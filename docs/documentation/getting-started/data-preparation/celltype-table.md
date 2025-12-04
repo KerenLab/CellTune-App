@@ -9,12 +9,16 @@ has_children: false
 ---
 
 ---
-***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
 
 ## CellType Table
-Name:      `CellTypeTable.csv`  
-Location:  *`CellTune_Store/CellTune_Data/{PROJ_NAME}/Tables/`*  
-[Example Below](#example-celltypetablecsv)  
+&nbsp;
+**Example CellTypeTable.csv:**
+
+![CellTypeTable_Screenshot](/assets/documentation/CellTypeTable_Screenshot.png){: width="100%"}  
+
+> Example table can be downloaded from the [demo data](#/tutorials/getting-started/demo-data) of the tutorials.  
+
+Suggested Location:  *`CellTune_Store/CellTune_Data/{PROJ_NAME}/Tables/`*  
 
 ---
 
@@ -58,11 +62,3 @@ Then made a default assignment for the major cell types.
 We use this as a starting point for our projects, and then make minimal adjustments to it - adding the cell types that aren't present and swapping some assignments if there is something specific we want to contrast even more. e.g. if our project was specifically about Neutrophils in the Tumor we might want to make them further apart, instead of Blue and Purple we might move the Neutrophils to be Pink or Orange. 
 
 ---
-
-### Example CellTypeTable.csv
-
-![CellTypeTable_Screenshot](/assets/documentation/CellTypeTable_Screenshot.png){: width="100%"}  
-
-> Example table can be downloaded from the [demo data](#/tutorials/getting-started/demo-data) of the tutorials.
-
---- 

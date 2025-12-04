@@ -2,14 +2,12 @@
 layout: default
 title: Review & Curation
 parent: Documentation
-nav_order: 9
+nav_order: 11
 permalink: /documentation/review
 ---
 
 ---
 ## Review & Curation
-
-***This documentation is currently undergoing updates right now... please see the [Tutorials](/tutorials)***
 
 
 ### CellTune Review
@@ -56,3 +54,27 @@ Label mismatches typically arise when:
 These indicators help highlight disagreements between predicted and assigned labels, making it easy to spot inconsistencies that may need further review.
 
 [See the example in the tutorial](/tutorial/labeling-review/review#review-mode-index-colors)
+
+
+
+Label & Review
+
+Review
+Menu_Review_PopulationSet.png
+![Viewer_0](/assets/documentation/Viewer_0.png){: width="35%"}   
+
+Toolbar_Review_Enter.png
+Toolbar_Review_Home.png
+Toolbar_Review_Settings.png
+
+Review_Classification_CD8T_APC.png
+Review_Created_Done.png
+Review_Indicator.png
+Review_Loading.png
+Review_PopulationSet_CD8T.png
+Review_PopulationSet_Dialog.png
+Review_PopulationSet_Done.png
+Review_SelectReview_Dialog.png
+Review_Toolbar_Jump.png
+Review_Toolbar_Jump_Dialog.png
+Review_Toolbar_Settings.png
