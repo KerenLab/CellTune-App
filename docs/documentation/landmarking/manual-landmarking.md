@@ -11,6 +11,7 @@ permalink: /documentation/landmarking/manual-landmarking
 ## Manual Landmark Gating 
 
 When manually gating we want to set high positive thresholds for the proteins that must be expressed (*PrimaryMarkers*) and low negative thresholds for the proteins that should not be expressed. 
+
 CD4T Example:
 - Must be positive for CD3 and CD4 (*remember myeloid cells also can express CD4!*). These are what we define as `PrimaryMarkers` in our CellTypeTable. ***So we set high positive gates for CD3 and CD4.***
 - Must be negative for CD8, FOXP3, CD20, CD68, IgA, Mucin, CHGA, etc ... Of course there will be many CD4T cells with spillover of these markers from neighboring cells, but our landmarks are the cells that do not. ***So we set low negative gates against CD8, FOXP3, etc.***
@@ -23,11 +24,10 @@ You can keep track of how many cells are still passing all of your gates in the 
 
 After all these gates you will be left with a subset of cells that are highly likely (>90%) to be correctly classified. We still sample and review them, to be 100% certain, and since we do not need all of these. 
 
-[An example of manual landmarking](/tutorial/landmarking/manual-landmarking) is shown in the tutorial.
-
+[An example of manual landmarking](/tutorials/landmarking/manual-landmarking/) is shown in the tutorial.
 
 ### Which proteins are expressed on a cell?
-If you are not sure which proteins are generally expressed for a given celltype in your data, you can do an [initial data exploration / clustering](/documentation/data-exploration) or you can gate, create a population from the gate, and then [plot the mean expression] of the gated cells across all lineage markers.
+If you are not sure which proteins are generally expressed for a given celltype in your data, you can do an [initial data exploration / clustering](/documentation/data-exploration) or you can gate, create a population from the gate, and then [plot the mean expression](/documentation/data-exploration/plot-expression) of the gated cells across all lineage markers.
 
 ### Using Neighbor Features
 Gating on neighbor features can be helpful to isolate very confident cells.

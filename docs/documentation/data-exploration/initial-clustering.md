@@ -4,35 +4,37 @@ title: Initial Clustering
 parent: Data Exploration
 grand_parent: Documentation
 nav_order: 1
-permalink: /documentation/data-exploration/
+permalink: /documentation/data-exploration/initial-clustering
 ---
 
 ---
 
-## Clustering 
-CellTune provides unsupervised clustering to reveal structure in the data and highlight distinct cell populations. The purpose of this step is straightforward: discover the cell types—both expected and novel—examine their expression profiles (e.g., mean cluster expression), and use this information to update your CellTypeTable.
+## Initial Clustering 
+CellTune provides unsupervised clustering to reveal structure in the data and highlight distinct cell populations. The purpose of this step is straightforward: discover the cell types (both expected and novel), examine their expression profiles (e.g., mean cluster expression), and use this information to update your CellTypeTable.
 
-Importantly, the goal is *not* to use initial clusters as final classifications (their accuracy is limited), but rather to **identify celltypes present** in the data and, if needed, [sample and review cells from each cluster to establish landmarks](/documentation/landmarking/clustering-based) for initial classification training.
+Importantly, the goal is *not* to use initial clusters as final classifications (their accuracy is limited), but rather to **identify celltypes present** in the data and, if needed, [sample and review cells from each cluster to establish landmarks](/documentation/landmarking/clustering-landmarking) for initial classification training.
 
-CellTune uses flowSOM (Self-organized maps) unsupervised clustering:
-- description
-- The number of clusters is determined by the clustering parameters (xdim * ydim). 
-
+CellTune uses flowSOM (Self-organized maps) unsupervised clustering.
 
 ### Run Clustering
 Select clustering through the classification menu bar:
-![Menu_Clustering](/assets/documentation/Menu_Clustering.png){: width="35%"}  
+
+![Menu_Clustering](/assets/documentation/Menu_Clustering.png){: width="45%"}  
 
 A dialog will open where you can adjust the clustering settings:
+
 ![Clustering_Dialog](/assets/documentation/Clustering_Dialog.png){: width="35%"}  
 
-If you currently have populations, you can click on the radio button for `Select Populations` to perform clustering to generate subgroups of populations, [see example below](/documentation/data-exploration/phenotype-clustering).
 
-- You need to select features - as seen previously in the hover legend, it is recommended to create a `Lineage` feature group and select it here.
-- Can adjust the xdim and ydim cluster parameters - the number of clusters shown below will update if you adjust them. 
-- Give a name for your clustering population set (Here we chose `Clusters`)
+- `Select Cells`: If you currently have populations, you can click on the radio button for `Select Populations` to perform clustering to generate subgroups of populations, [see example below](/documentation/data-exploration/phenotype-clustering). Otherwise, click on `All Cells`.
+- `Select Features`: Select features that will be used for clustering.  
+As seen previously in the hover legend, it is recommended to create a `Lineage` feature group and select it here.
+- `Cluster parameters`: Determine the number of clusters (= xdim * ydim). The number of clusters shown below will update if you adjust them. 
+- `Population set name`: Give a name for your clustering population set (Here we chose `Clusters`)
+
 
 Click `OK` and clustering will run.
+
 Next, the clusters will be loaded into the Populations Panel and you can visualize them:
 
 ![Clustering_Visualize](/assets/documentation/Clustering_Visualize.png){: width="100%"}  
