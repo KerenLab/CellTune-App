@@ -63,9 +63,7 @@ Review
 Menu_Review_PopulationSet.png
 ![Viewer_0](/assets/documentation/Viewer_0.png){: width="35%"}   
 
-Toolbar_Review_Enter.png
-Toolbar_Review_Home.png
-Toolbar_Review_Settings.png
+
 
 Review_Classification_CD8T_APC.png
 Review_Created_Done.png

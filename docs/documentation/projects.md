@@ -52,10 +52,9 @@ Melanoma_Jan1426
 Colon_Nov0825
 
 
+Your project should be created (through the GUI) at:
 
-Your project should be created under through the GUI:
-
-CellTune_Store/CellTune_Projects/{PROJ_NAME}/
+*CellTune_Store/CellTune_Projects/{PROJ_NAME}/*
 
 
 ### Project Structure

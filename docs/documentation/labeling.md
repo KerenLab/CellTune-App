@@ -32,6 +32,7 @@ Labeling toolbar -->
 
 
 
+
 ### Labeling by Population
 There is interest in a mode where the user would be able to select a population for labeling and then all cells clicked on would be assign to that population. E.g. Labeling mode set to population, select CD8T, then every cell clicked on gets labeled as CD8T. It is on our short-list of new features. 
 
@@ -40,6 +41,3 @@ There is interest in a mode where the user would be able to select a population 
 
 ![Viewer_0](/assets/documentation/Viewer_0.png){: width="35%"}   
 
-Toolbar_Label_Ambiguous.png
-Toolbar_Label_Broom.png
-Toolbar_Label_Plus.png
