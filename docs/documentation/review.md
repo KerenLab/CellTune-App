@@ -147,7 +147,7 @@ Label mismatches typically arise when:
 
 These indicators help highlight disagreements between predicted and assigned labels, making it easy to spot inconsistencies that may need further review.
 
-[See the example in the tutorial](/tutorial/labeling-review/review#review-mode-index-colors)
+[See the example in the tutorial](/tutorials/labeling-review/review#review-mode-index-colors)
 
 
 
