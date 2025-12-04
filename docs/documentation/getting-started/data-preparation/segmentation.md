@@ -29,6 +29,7 @@ has_children: false
 Segmentation can be stored in a new separate folder, we recommend `/CellTune_Data/{PROJ_NAME}/Segmentations`
 - Names should be {IMAGE_NAME}_segmentation_labels.tif (e.g. Control_01_FOV_1_segmentation_labels.tif)
 
+See [whole slide example in the tutorial](/tutorials/additional-tutorials/whole-slide-example)
 
 If your images are single TIFF directories (like the demo data). Then you can store the segmentations directly in the image folders, named `segmentation_labels.tif` (e.g. `/CellTune_Data/{PROJ_NAME}/Images/Control_01_FOV_1/segmentation_labels.tif`).
 
