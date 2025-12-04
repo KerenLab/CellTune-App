@@ -12,25 +12,34 @@ permalink: /documentation/viewer/segment-controls
 ## Segment Controls
 &nbsp; 
 
+At the bottom right of the interface is the Segment Controls Panel.
+![SegmentControls_Panel](/assets/documentation/SegmentControls_Panel.png){: width="55%"}  
 
-### Adjust Segmentation 
+### Selected Cell
+You can navigate to a cell by typing its cellID into the 
+By default the cell will be marked with white crosshair and the viewer will zoom and center on the cell.
+You can change these settings with the checkboxes.
+
+> *Note: If a cell is near the edge of the image, it won't be perfectly centered on the screen.*
+
+If you manually select a cell by using `Shift + LClick` on the cell, its ID will be shown in the Selected Cell box. 
+
+
+### Adjust Alpha (Opacity) and Fill
 &nbsp;  
 
-Adjust segmentation opacity and hover fill through segment controls.
-
+Adjust segmentation, population, and gating opacity using the sliders.
+You can 
 
 > Tip: 0.4 is our favorite opacity setting for the segmentation.
 
+Below the opacity sliders you can check whether cells will show the borders or the cell will be filled in for hovering highlights, population colors, and gating highlights.
 
-
-### Segment Controls & Select Cell
-
-SegmentControls_Panel.png
-
-Select_Cell.png
-Select_Cell_Hover.png
-Select_Cell_Hover_Filter.png
+Please [see the tutorials](/tutorials) where all these options are demonstrated.
 
 
 
-![Viewer_0](/assets/documentation/Viewer_0.png){: width="35%"}  
+
+
+
+
