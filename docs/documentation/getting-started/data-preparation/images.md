@@ -14,12 +14,88 @@ has_children: false
 
 
 ### Image Formats
+CellTune supports loading images from both non-pyramidal and pyramidal formats.
 
+**Non-pyramidal formats**
+- Single-channel TIFFs
+- Multi-channel TIFF stacks
+
+**Pyramidal formats**
+- OME-TIFF
+- QPTIFF
+- OME-ZARR / ZARR
+
+Most other multiplexed imaging file types can be converted into OME-Zarr using [BioFormats2Raw](https://github.com/glencoesoftware/bioformats2raw), after which CellTune can process them directly.
+
+
+***ZARR Generation (Current Behavior)***
+
+To get CellTune out faster, CellTune currently converts all supported image formats into internal Zarr stores.
+This ensures consistent handling across formats and enables fast region-based access during visualization and feature computation.
+
+*Note: In upcoming versions, Zarr conversion will be optional and skipped when not needed (e.g., native high-quality Zarr or pyramidal formats, or small images). We are working on these checks and optimizations to speed up project setup and minimize disk usage.*
+
+
+If you have issues with your image format please [contact us](/contact).
 
 ---
 
 ### Image Organization
+Organizing your data cleanly ensures smooth loading, consistent project structure, and portable sharing.
 
+You can load images from any directory, but for convenience and portability we recommend placing them under:
+
+`CellTune_Store/CellTune_Data/{PROJ_NAME}/Images/`
+See [Project Documentation](/documentation/projects)
+
+
+
+1. Single-TIFF Folder Layout (one TIFF per channel)
+CellTune_Data/{PROJ_NAME}/Images/
+	{IMAGE_NAME_1}/
+    	channel_1.tif
+    	channel_2.tif
+    	...
+	{IMAGE_NAME_2}/
+    	channel_1.tif
+    	channel_2.tif
+    	...
+	
+2. Multi-TIFF / Whole-Slide Formats
+CellTune_Data/{PROJ_NAME}/Images/
+	{IMAGE_NAME_1}.ome.tif
+	{IMAGE_NAME_2}.ome.tif
+	...
+	
+
+**Segmentation labels** should be stored in a separate Segmentations folder...
+
+CellTune_Data/{PROJ_NAME}/Segmentations/
+	{IMAGE_NAME_1}_segmentation_labels.tif
+	{IMAGE_NAME_2}_segmentation_labels.tif
+	...
+	
+OR can be inside the Single-TIFF directories with the channels (call them segmentation_labels.tif).
+	
+See [Segmentation Documentation](/documentation/getting-started/data-preparation/segmentation).
+
+
+--- 
+### How CellTune Handles Images and Zarr Creation
+
+When you create a project, CellTune links (not copies) these image files into the project’s internal Images/ directory, allowing multiple projects to reference the same initial images. For each project, it currently makes a copy for its internal Zarr store.
+
+Initial Zarr generation will be significantly slower on remote filesystems due to high I/O latency.
+We recommend storing data in a dedicated project directory under CellTune_Data/.
+
+Recommended Workflow for Remote Data
+
+If possible:
+- Copy the image directory locally
+- Create the new CellTune project (the Zarr will be generated from the local files)
+- To free space manually delete the local copy and links ('CellTune_Projects/{PROJ_NAME}/Images/Input/') once the project is created
+
+*Because CellTune generates internal Zarrs, the temporary local copy and links do not need to be kept after you start your project.*
 
 ---
 
