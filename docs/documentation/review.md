@@ -16,17 +16,21 @@ It is designed to help you quickly produce high-quality labeled data for trainin
 
 A CellTune Review has three key components:
 
-1. A cell sample
-This is the specific list of cells you will inspect during the review.
-Examples: “CD8T candidates,” “cluster 7 cells,” “classifier predictions.”
+1. **A cell sample**
 
-2. A viewing population set
-This determines what you see while reviewing—e.g., the population set containing classifier predictions or landmarks that provide context.
-It controls visibility, colors, and optional auto-channel selection.
+    This is the specific list of cells you will inspect during the review.
 
-3. An output population set
-This is where the labels you assign during review are saved.
-It can be the same as the viewing population set (e.g., reviewing and updating “Landmarks”), or a separate one (e.g., reviewing classifier predictions and writing results into “Labels_Classifier_1”).
+    Examples: “CD8T candidates,” “cluster 7 cells,” “classifier predictions.”
+
+2. **A viewing population set**
+
+    This determines what you see while reviewing—e.g., the population set containing classifier predictions or landmarks that provide context.
+    It controls visibility, colors, and optional auto-channel selection.
+
+3. **An output population set**
+
+    This is where the labels you assign during review are saved.
+    It can be the same as the viewing population set (e.g., reviewing and updating “Landmarks”), or a separate one (e.g., reviewing classifier predictions and writing results into “Labels_Classifier_1”).
 
 In many cases, the viewing and output population sets are the same—for example, when reviewing a landmark population set you are refining the population set without writing to any additional set.
 
@@ -49,10 +53,11 @@ Here we want to review the auto landmarks populations and correct them in place.
 
 
 When a Review is created you will see a message:
-![Review_PopulationSet_Done.png](/assets/documentation/Review_PopulationSet_Done.png.png){: width=40%}
+
+![Review_PopulationSet_Done.png](/assets/documentation/Review_PopulationSet_Done.png){: width=40%}
 
 
-Note: In the case of generating a sample and review from classification panel, there will not be a dialog since these parameters are already set: the viewing population set = `Pred_ALL_{CLASSIFIER_NAME}` and the output set is `Labels_{CLASSIFIER_NAME}`.
+> Note: In the case of generating a sample and review from classification panel, there will not be a dialog since these parameters are already set: the viewing population set = `Pred_ALL_{CLASSIFIER_NAME}` and the output set is `Labels_{CLASSIFIER_NAME}`.
 
 ![Review_Created_Done](/assets/documentation/Review_Created_Done.png){: width=40%}
 
@@ -62,8 +67,7 @@ Note: In the case of generating a sample and review from classification panel, t
 
 ### Enter/Exit Review
 
-Press the Enter/Exit Review button on the right side of the toolbar:
-![Toolbar_Review_Enter](/assets/documentation/Toolbar_Review_Enter.png){: width=35%}
+Press the Enter/Exit Review button on the right side of the toolbar <span style="vertical-align: middle;">![Toolbar_Label_Ambiguous](/assets/documentation/Toolbar_Review_Enter.png){: width="5%"}</span>:
 
 If there is only one review in the project it will load automatically.
 
@@ -76,7 +80,9 @@ If there are multiple reviews in the project you will be prompted to select one:
 
 ### Examples
 
+
 **Reviewing Landmarks**
+
 Here we are reviewing the Automated Landmarks. The cell currently being reviewed was landmarked as a CD8T.
 We can skip to the next cell if it is correct. Or remove the label if it is incorrect.
 
@@ -85,6 +91,7 @@ We can skip to the next cell if it is correct. Or remove the label if it is inco
 > We can also give it another label and/or label any other cells we see (it will add them to the landmarks.)
 
 **Reviewing a Sample of Cells from the Classifier**
+
 Here we are reviewing the cells we sampled from the classifier. For these cells each of the two models had a different prediction. The cell currently being predicted to be CD8T by one model and APC by another.
 
 We can click on one of the population buttons in the review toolbar to assign the cell to a population. Or label the cell by clicking in the Populations Panel.
@@ -96,7 +103,7 @@ We can click on one of the population buttons in the review toolbar to assign th
 - Removing both labels and continuing effectively does the same thing as skipping the cell. 
 
 
-*Note: there are many additional video [examples of reviewing cells in the tutorials](/tutorials/labeling-review/review).*
+> *Note: there are many additional video [examples of reviewing cells in the tutorials](/tutorials/labeling-review/review).*
 
 
 ### Navigating the Review
@@ -112,7 +119,7 @@ If you `RClick` on the review cell index you can jump to another cell in the rev
 
 
 ### Auto Channel Selection
-In Review Mode, as you navigate to the Next Cell, the channels can be automatically changed to those most associated with the celltype labels the cell has. This is useful because if we are looking at a cell which has predictions for Bcell and CD4T, it will automatically put on CD20, CD4, and CD3. 
+In `Review Mode`, as you navigate to the `Next Cell`, the channels can be automatically changed to those most associated with the celltype labels the cell has. This is useful because if we are looking at a cell which has predictions for Bcell and CD4T, it will automatically put on CD20, CD4, and CD3. 
 
 Up to 3 channels per celltype are stored in the population set's info, this data comes from the [CellTypeTable](/documentation/getting-started/data-preparation/celltype-table) and can be updated and imported at any time. See [Populations Info Documentation](/documentation/populations#populations-info).
 
