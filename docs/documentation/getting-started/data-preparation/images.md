@@ -122,3 +122,22 @@ You can use any pre-processing tools. You just need to make sure that at the end
 > Some pre-processing tools convert to float values (e.g. pixels with values like 0.003). ***CellTune does not currently support float  type images.*** You could scale your images and convert to integer by multiplying by a factor. It is important to understand what pre-processing is done and to look at your images before and after any pre-processing to see that you are not losing too much signal (or leaving too much noise). 
 
 ---
+### Subregions / Masks
+
+Subregions (or binary masks) provide contextual histological information via pixel classifiers (e.g., smooth muscle masks to distinguish fibroblasts from vascular smooth muscle cells).
+
+These can be manually prepared or generated with pixel classification tools like Ilastik and QuPath (Under development is incorporating all of these into the GUI).
+
+**Important!** The masks currently can only be imported when using `single-TIFF` directories, and need to be included in the image folder.
+These file names must end in "__Subregion" or "__Mask". 
+
+For examples: "Tissue__Mask", "Tumor__Subregion"
+
+	CellTune_Data/{PROJ_NAME}/Images/
+		{IMAGE_NAME_1}/
+			channel_1.tif
+			channel_2.tif
+			tissue__Mask.tif
+			...
+
+*We are working on the option of importing masks to a project for other data types.*

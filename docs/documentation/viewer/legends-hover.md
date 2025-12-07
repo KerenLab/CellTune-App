@@ -12,7 +12,7 @@ permalink: /documentation/viewer/legends-hover
 ## Viewer Legends & Hover Functionality
 &nbsp; 
 
-Legends are an important.
+Legends are an important visual reference when navigating your images. They give you rapid, dynamic information—what channels are on, which cell you’re hovering over, the populations it belongs to, and the markers it expresses. This section shows how to use legends to stay oriented and understand your data at a glance.
 
 ### Turning the Legend On/Off
 
