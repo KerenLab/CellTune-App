@@ -20,9 +20,6 @@ The keyboard shortcuts window can stay open while you are working for quick refe
 
 ---
 ## MacOS
-The shortcuts shown throughout the tutorial are for MacOS.  
-For PC, most are the same with `Ctrl` replacing `Cmd`.  
-*[We will add a PC section shortly, but you can find it through the menu]*
 
 ---
 ### General
@@ -47,5 +44,32 @@ For PC, most are the same with `Ctrl` replacing `Cmd`.
 ---
 ### Review
    ![KeyboardShortcuts_6_Review](/assets/documentation/KeyboardShortcuts_6_Review.png)  
+   
+---
+## PC
+
+---
+### General
+   ![KeyboardShortcuts_1_General](/assets/documentation/PC_KeyboardShortcuts_1_General.png)  
+   
+---
+### Viewer
+   ![KeyboardShortcuts_2_Viewer](/assets/documentation/PC_KeyboardShortcuts_2_Viewer.png)  
+   
+---
+### Segmentation
+   ![KeyboardShortcuts_3_Segmentation](/assets/documentation/PC_KeyboardShortcuts_3_Segmentation.png)  
+   
+---
+### Channels
+   ![KeyboardShortcuts_4_Channels](/assets/documentation/PC_KeyboardShortcuts_4_Channels.png)  
+   
+---
+### Populations
+   ![KeyboardShortcuts_5_Populations](/assets/documentation/PC_KeyboardShortcuts_5_Populations.png)  
+   
+---
+### Review
+   ![KeyboardShortcuts_6_Review](/assets/documentation/PC_KeyboardShortcuts_6_Review.png)  
    
 ---
