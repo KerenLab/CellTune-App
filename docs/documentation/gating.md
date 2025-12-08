@@ -131,7 +131,7 @@ This will open a dialog where you can edit the current gating expression:
 
 ![Gating_Expression_Edit_After](/assets/documentation/Gating_Expression_Edit_After.png){: width="65%"}
 
-After editing click `OK` and your expression will update:
+After editing, click `OK` and your expression will update:
 
 ![Gating_Expression_OR](/assets/documentation/Gating_Expression_OR.png){: width="35%"}
 
