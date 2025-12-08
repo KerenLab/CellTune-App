@@ -23,17 +23,14 @@ The labeling and review toolbars are located just below the main image viewer.
 The Labeling Toolbar shows the current `Label Mode` and has buttons for labeling actions.
 When a cell is selected the `Label Mode` will read `Cell` and the buttons will be activated. 
 From left to right: 
-- Label Ambiguous
-![Toolbar_Label_Ambiguous](/assets/documentation/Toolbar_Label_Ambiguous.png){: width=35%}
-- Add Label
-![Toolbar_Label_Plus](/assets/documentation/Toolbar_Label_Plus.png){: width=35%}
-- Clear Labels (Broom)
-![Toolbar_Label_Broom](/assets/documentation/Toolbar_Label_Broom.png){: width=35%}
-
+- Label Ambiguous <span style="vertical-align: middle;">![Toolbar_Label_Ambiguous](/assets/documentation/Toolbar_Label_Ambiguous.png){: width="5%"}</span>
+- Add Label <span style="vertical-align: middle;">![Toolbar_Label_Plus](/assets/documentation/Toolbar_Label_Plus.png){: width="5%"}</span>
+- Clear Labels (Broom) <span style="vertical-align: middle;">![Toolbar_Label_Broom](/assets/documentation/Toolbar_Label_Broom.png){: width="5%"}</span>
 - Undo Button (*under development*)
 
 
 When a cell is not selected `Label Mode` will read `Off`. 
+
 (*We are working on additional label modes*) 
 
 For more info on labeling, see the [Labeling Documentation.](/documentation/labeling)
@@ -42,15 +39,11 @@ For more info on labeling, see the [Labeling Documentation.](/documentation/labe
 
 The Review Toolbar shows if Review Mode is `On` or `Off` and has buttons for navigating during the review and for review settings.
 
-- Enter/Exit *Review Mode*. 
-![Toolbar_Review_Enter](/assets/documentation/Toolbar_Review_Enter.png){: width=35%}
-
-- Home To Current Review Cell (brings you back to the cell you should be reviewing if you pan away from it or selected a different cell)
-![Toolbar_Review_Home](/assets/documentation/Toolbar_Review_Home.png){: width=35%}
-
-- Review Settings: allows you to change whether automated channel selection is on/off.
-![Toolbar_Review_Settings](/assets/documentation/Toolbar_Review_Settings.png){: width=35%}
-
+- Enter/Exit *Review Mode* <span style="vertical-align: middle;">![Toolbar_Label_Ambiguous](/assets/documentation/Toolbar_Review_Enter.png){: width="5%"}</span>
+- Home To Current Review Cell  <span style="vertical-align: middle;">![Toolbar_Label_Plus](/assets/documentation/Toolbar_Review_Home.png){: width="5%"}</span>  
+    Brings you back to the cell you should be reviewing if you panned away from it or selected a different cell
+- Review Settings <span style="vertical-align: middle;">![Toolbar_Label_Broom](/assets/documentation/Toolbar_Review_Settings.png){: width="5%"}</span>  
+    Allows you to change whether automated channel selection is on/off.
 - Add Note (*under development*)
 
 

@@ -10,24 +10,25 @@ permalink: /documentation/data-exploration/plot-expression
 ---
 ## Plot Expression
 
-Plotting a heatmap of protein/marker expression across cell classes is core data exploration for spatial proteomics. It helps you characterize and validate celltypes & phenotypes, see that your classes make sense, and spot mislabeled or mixed populations.
+Plotting a heatmap of protein/marker expression across cell classes is a core part of data exploration for spatial proteomics. It helps you characterize and validate celltypes & phenotypes, see that your classes make sense, and spot mislabeled or mixed populations.
 
 
 ### Plot Heatmap
 Here we show an example of plotting a heatmap of the expression of the celltype predictions.
 
 To generate this heatmap go to the `Plot` menu and select `Plot Expression`:
-![Menu_Plot](/assets/documentation/Menu_Plot.png){: width="35%"}  
+
+![Menu_Plot](/assets/documentation/Menu_Plot.png){: width="25%"}  
 
 The heatmap dialog will appear: 
 
 ![Heatmap_Predictions_Dialog](/assets/documentation/Heatmap_Predictions_Dialog.png){: width="55%"}  
 
 You can select several options:
-- Included Features 
+- Included Features (feature group or manually selected)
 - Cluster average statistic: mean or median 
-- Clustering of populations & features
-- Normalization
+- Clustering of populations and/or features
+- Normalization (using min-max normalization)
 - Colormap
 
 Then click `Plot` and your heatmap will appear!

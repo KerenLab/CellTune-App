@@ -13,8 +13,10 @@ permalink: /documentation/labeling
 
 ### CellType Name Conventions
 
+We have standardized cell type naming conventions for our lab - feel free to follow or not.  
+
 It is helpful to use concise and consistent names for cell types while doing the classification process, e.g. `CD4T` instead of `CD4+ T`, without spaces, hyphens, special characters (other than underscores).
-So we have standardized cell type naming conventions for our lab - feel free to follow or not.  
+
 All the cell types we've used so far can be found in [CellTuneDepot](/celltunedepot).
 (Before publication we change all the names at once to make them nice, adding spaces, using superscripts for +, etc).
 
@@ -22,7 +24,7 @@ We also highly encourage following our lab’s conventions for labeling ambiguou
 
 - **“Unidentified”** = Cells that are negative for all lineage markers, lineage is unknown. [Unidentified comes up in every project and is always included in the training.]
 - **“Garbage”** = Cells that are artifacts (e.g., multi-channel aggregates, overly positive for many markers, or otherwise unusable). [By default Garbage is included in training to find other similar cells, so it should be a recurring staining issue, otherwise filter out from training]
-- **“Ambiguous”** or Skip = Cells that are ambiguous due to overlap or segmentation issues should be labeled “Ambiguous” or skipped entirely.
+- **“Ambiguous”** or **“Skip”** = Cells that are ambiguous due to overlap or segmentation issues should be labeled “Ambiguous” or skipped entirely.
 
 ### Labeling by Cell
 Labeling by cell requires that a cell is selected.
@@ -30,7 +32,7 @@ Cells can be selected or unselected in the viewer by pressing `Shift` + `Left Cl
 
 The [Labeling Toolbar](/documentation/viewer/toolbars#labeling-toolbar) will become enabled and the `+` button can be used to add the cell to a new or existing population.
 
-You can also assign a cell to an existing population by **clicking on the population when the cell is selected**. 
+You can also assign a cell to an existing population by **clicking on the population (from the populations panel) when the cell is selected**. 
 Clicking on a population will remove the assignment of the cell from other populations unless you hold the `Cmd` button for multi-selection. 
 
 Populations that the selected cell belongs to will be highlighted in the Population Panel and they show up in the labeling toolbar.

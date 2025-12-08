@@ -16,7 +16,7 @@ It is usually not very accurate when looking at individual cells (that's why we 
 This [data exploration](/documentation/data-exploration) is especially useful when you are new to a panel or dataset, in order to help when building the [CellTypeTable](/documentation/getting-started/data-preparation/celltype-table) or to confirm that no major cell types were missed it.  
 
 
-> *If you know your antibody panel well, we usually recommend to set up the CellTypeTable first and then check the clustering to see if anything was missing and to help with the [`TertiaryMarker`](/documentation/getting-started/data-preparation/#secondary-tertiary-marker-columns) column.*  
+> *If you know your antibody panel well, we usually recommend setting up the CellTypeTable first and then checking the clustering to see if anything was missing and/or for help with the [`TertiaryMarker`](/documentation/getting-started/data-preparation/#secondary-tertiary-marker-columns) column.*  
   
   
 Clustering produces a population set, and from there, you can examine marker expression, select and gate on clusters of interest, and sample cells for landmark review.

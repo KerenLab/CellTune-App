@@ -10,7 +10,7 @@ permalink: /documentation/landmarking/automated-landmarking
 ---
 ## Automated Landmarking 
 
-Automated Landmarking automatically identifies high-confidence example cells (“landmarks”) for each cell type so you don’t have to manually gate them one by one. It uses the celltype-marker rules and can operate on the intensity values, marker-positivity probabilities, or both when available. (You must have computed or imported features prior to landmarking.)
+Automated Landmarking automatically identifies high-confidence example cells (“landmarks”) for each cell type so you don’t have to manually gate them one by one. It uses the celltype-marker rules table (`CellTypeTable`) and can operate on the intensity values, marker-positivity probabilities, or both when available. (You must have computed or imported features prior to landmarking.)
 
 The landmark rules are the celltype definitions in the CellTypeTable - it uses the columns `PrimaryMarker`, `SecondaryMarker`, and `TertiaryMarker`. [See the documentation for CellTypeTable setup and reference](/documentation/getting-started/data-preparation/celltype-table).
 
@@ -18,14 +18,15 @@ The landmark rules are the celltype definitions in the CellTypeTable - it uses t
 
 `Automated Landmarking` can be found in the menu under `Gating`:
 
-![Menu_Gating](/assets/documentation/Menu_Gating.png){: width="55%"}  
+![Menu_Gating](/assets/documentation/Menu_Gating.png){: width="45%"}  
 
 
 You can configure Automated Landmarking using the dialog shown below:
 
-![AutoLandmarking](/assets/documentation/AutoLandmarking.png){: width="85%"}  
+![AutoLandmarking](/assets/documentation/AutoLandmarking.png){: width="75%"}  
 
-- If you have an external marker positivity table you can upload it here. The column names must be '{MARKER_NAME}__Probability'.
+- If you have an external marker positivity table you can upload it from this dialog. The column names in this table must be '{MARKER_NAME}__Probability'.
+- `Choose gating type` allows you to choose between gating based on: `Intensity`, `Probability`, `Both`. You must upload a marker positivity table to use the `Probability` or `Both` options.
 
 - We highly recommend utilizing subsampling, so you can review your landmarks before training. *In [our manuscript](/citation), we showed that there was not any benefit to the final accuracy from initializing with thousands of landmarks.*
 
@@ -33,7 +34,7 @@ You can configure Automated Landmarking using the dialog shown below:
 &nbsp;
 When the algorithm finishes you will see the following message:
 
-![AutoLandmarking_Done](/assets/documentation/AutoLandmarking_Done.png){: width="35%"}   
+![AutoLandmarking_Done](/assets/documentation/AutoLandmarking_Done.png){: width="55%"}   
 
 
 Then you will see a summary of the number of cells landmarked for each celltype.

@@ -15,11 +15,11 @@ permalink: /documentation/getting-started/data-preparation
 
 We highly recommend [pre-processing your images](/documentation/getting-started/data-preparation/images#pre-processing) to clean out background, noise, and artifacts. 
 
-*You can also **optionally** prepare a table of initial cell type information which can be used for automated landmarking and automated channel selection during cell review.*
+*You can also **optionally** prepare a table of initial cell type information (`CellTypeTable` in the demo data) which can be used for [automated landmarking](/documentation/landmarking/automated-landmarking) and [automated channel selection](/documentation/review#auto-channel-selection) during cell review.*
 
 ### Compatibility
 
-CellTune supports pyramidal image formats (e.g. ) non-pyramidal image formats, including single TIFF, 
-Support for very large pyramidal formats (e.g., OME-TIFF, QPTIFF, OME-ZARR) and speed improvements have recently been added. 
+CellTune supports pyramidal image formats (e.g. ) non-pyramidal image formats, including `single TIFF`, 
+Support for very large pyramidal formats (e.g., `OME-TIFF`, `QPTIFF`, `OME-ZARR`) and speed improvements have recently been added. 
 
 

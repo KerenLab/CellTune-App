@@ -27,17 +27,16 @@ Highlights:
 ---
 
 ### Images Panel
-&nbsp;  
 
 The top left panel allows you to select different images from your project.
 You can select images by scrolling through the list and clicking on an image name.
  
-![Images_Panel](/assets/documentation/Images_Panel.png)
+![Images_Panel](/assets/documentation/Images_Panel.png){: width="35%"}  
 
 > Tip: When an image is selected, you can scroll through images with the up and down arrows.
   
 &nbsp;
-*We are planning to add an option to search in a future version.*
+*We are planning to add an option to search by image name in a future version.*
 
 
 ---
@@ -46,22 +45,21 @@ You can select images by scrolling through the list and clicking on an image nam
 
 Below the images panel, you will find the channels panel with several channel widgets which allow you to select and adjust channels:
 
-![ChannelWidget](/assets/documentation/ChannelWidget.png)
+![ChannelWidget](/assets/documentation/ChannelWidget.png){: width="35%"}  
 
 > *(By default there are 7, we are working on adding more)*
 
-&nbsp;
 
 **Adjust Brightness:**  
-You can adjust channel brightness cutoffs using the sliders.
-Everything below the left (bottom) slider handle will be black and everything above the right (upper) slider handle will be saturated.  
-> Tip: You can click directly on the values and edit them (press Enter after typing!). You can also edit the value on the right side to increase/decrease the sliders range.
+You can adjust channel brightness cutoffs using the sliders in each channel widget.
+All pixel values below the left (bottom) slider handle will be black, and all pixel values above the right (upper) slider handle will be saturated.
+> Tip: You can click directly on the values and edit them (press Enter after typing!). You can also edit the value on the right side to increase/decrease the slider's range.
 
 
 **Select Channel:**  
 You can select channels using the dropdown or by typing in a channel name (***make sure you press Enter!***)
  
-![Channels_Select_Dropdown](/assets/documentation/Channels_Select_Dropdown.png)
+![Channels_Select_Dropdown](/assets/documentation/Channels_Select_Dropdown.png){: width="35%"}  
 
 You can also use the *Up/Down Arrows* to change channels when you click inside the channel text box (as if you are going to type).
 
@@ -69,34 +67,19 @@ You can also use the *Up/Down Arrows* to change channels when you click inside t
 
 
 **Channel Color:**  
-You can change the color of channels using the color selection box by clicking on one of the predefined colors, or using the hex or RGB inputs at the bottom:
+To change the color of a channel, click on the colored box to the left of the channel name. This will open a color palette, where you can choose a color by clicking on one of the predefined colors, or using the hex or RGB inputs at the bottom:
 
-![Channels_Color](/assets/documentation/Channels_Color.png)
+![Channels_Color](/assets/documentation/Channels_Color.png){: width="35%"}  
 
 **Visibility:**  
 Each channel has an eye icon which can toggle its visibility.
 At the top of the panel is an eye icon which toggles the visibility of all channels.
 
-![ChannelGroups](/assets/documentation/ChannelGroups.png)
+![ChannelGroups](/assets/documentation/ChannelGroups.png){: width="35%"}  
 
-There is also a section at the top to select and save/delete channel groups, as discussed in the following section:
-
----
-
-### Create Channel Groups
-&nbsp;  
-
-Create channel groups (you can select and change groups of channels with a single click!):
-
-
-
-Type the channel group name in the box, then press the (+) button.  
-To delete a channel group press the (-) button.  
-If you change the channels with an existing channel group name selected, the (+) button will update the channel group.  
-> Tip: You can scroll through channel groups with the up and down arrows.
+There is also a section at the top of the channel panel to select and save/delete channel groups, as discussed in the following section:
 
 ---
-
 
 ### Channel Groups
 
@@ -107,7 +90,7 @@ There are several [tutorials with examples](/tutorials/landmarking/clustering-la
   
 **Creating a Channel Group:**
 1. Select the channels desired in the channel widgets.
-2. Type the name in the box.
+2. Type the name in the `Group` box.
 3. Click on the `+` button next to the name to save. 
 
 **Deleting a Channel Group:**
@@ -118,19 +101,19 @@ For example, we usually start by saving an `Overview` channel group which includ
 
 ![Channel_Group_Overview](/assets/documentation/Channel_Group_Overview.png)
 
-When the channel group is created you will see the following:
+When the channel group is created you will see the following message:
 
-![Channel_Group_Created_Done](/assets/documentation/Channel_Group_Created_Done.png)
+![Channel_Group_Created_Done](/assets/documentation/Channel_Group_Created_Done.png){: width="45%"}  
 
 We also make a general `Immune` channel group, including CD20, CD3, CD68, CD15, IgA, etc to differentiate between the major immune groups (B cell, T cell, Macrophage, Neutrophil, Plasma, etc.):
 
 ![Channel_Group_Immune](/assets/documentation/Channel_Group_Immune.png)
 
-We also make groups for `Tcell` (CD8, CD4, FOXP3), `Myeloid` (CD14, CD68, CD163, CD206, Calprotectin), and more
+We also make groups for `Tcell` (CD8, CD4, FOXP3), `Myeloid` (CD14, CD68, CD163, CD206, Calprotectin), and more.
 
 You can select a channel group using the dropdown, or more efficiently using the keyboard shortcut `Cmd + Up/Down` (mac).
 
-![Channel_Group_Select](/assets/documentation/Channel_Group_Select.png)
+![Channel_Group_Select](/assets/documentation/Channel_Group_Select.png){: width="35%"}  
 
 
 --- 
@@ -139,18 +122,19 @@ You can select a channel group using the dropdown, or more efficiently using the
 
 The Populations Panel is found at the top right of the interface. 
 
-![Populations_Panel](/assets/documentation/Populations_Panel.png)
+![Populations_Panel](/assets/documentation/Populations_Panel.png){: width="45%"}  
 
 - The eye icon at the top toggles the visibility of all populations. 
-
 - To the right of the word 'Set' is a dropdown box you can use to select population sets.
 - You can type in the box and press the `+` button to create an empty population with a given name, or just press the `+` button and a default name will be given.
-- You can delete the population set with the `-` button.
+- You can delete the selected population set with the `-` button.
 
 Populations can be created through labeling, gating, classification predictions, etc. Or they can be imported. 
 
 When populations are available you will see their names, colors, and a visibility icon for toggling the population on/off.
 ![View_Prediction_Populations](/assets/documentation/View_Prediction_Populations.png)
+
+Similar to the channels widgets, to change the color of a population, click on the colored box to the left of the population name. 
 
 For more info, see the [Populations Documentation.](/documentation/populations)
 
@@ -160,7 +144,7 @@ For more info, see the [Populations Documentation.](/documentation/populations)
 
 The Gating Panel is just below the populations. Here you can set thresholds on numerical features to filter and group cell populations.
 
-![Gating_Panel](/assets/documentation/Gating_Panel.png)
+![Gating_Panel](/assets/documentation/Gating_Panel.png){: width="35%"}  
 
 For more info, see the [Gating Documentation.](/documentation/gating)
 
@@ -170,9 +154,9 @@ For more info, see the [Gating Documentation.](/documentation/gating)
 ### Classification Panel
 
 
-The Classification Panel is just below gating. Here you can create classifiers, add labels to them, train them, plot confusion matrix for their models, and sample cells for labeling. 
+The Classification Panel is just below gating. Here you can create classifiers, add labels to them, train them, plot the confusion matrix for their models, and sample cells for labeling. 
 
-![Classification_panel](/assets/documentation/Classification_panel.png)
+![Classification_panel](/assets/documentation/Classification_panel.png){: width="35%"}  
 
 For more info, see the [Classification Documentation.](/documentation/classification)
 
@@ -183,10 +167,11 @@ For more info, see the [Classification Documentation.](/documentation/classifica
 
 You can adjust color blending and segmentation fill settings from the menu:
 
-![Menu_AdvancedViewerSettings](/assets/documentation/Menu_AdvancedViewerSettings.png)
+![Menu_AdvancedViewerSettings](/assets/documentation/Menu_AdvancedViewerSettings.png){: width="35%"}  
 
+Which will open the following dialog:
 
-![Viewer_AdvancedSettingsDialog](/assets/documentation/Viewer_AdvancedSettingsDialog.png)
+![Viewer_AdvancedSettingsDialog](/assets/documentation/Viewer_AdvancedSettingsDialog.png){: width="75%"}  
 
 Color blending determines how two overlapping colors will appear when they mix. [See the tutorial for an example](/tutorials/viewer#colors-and-color-blending).
 

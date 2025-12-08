@@ -20,7 +20,7 @@ permalink: /documentation/getting-started/launch-celltune
 
 ![startup_screen](/assets/documentation/startup_screen.png){: width="100%"}   
 
-- You can start a new project following the [Documentation - Project Setup](/documentation/project-setup). 
+- You can start a new project following the [Documentation - Project Setup](/documentation/getting-started/project-setup). 
 - It is highly recommended to download the demo data and follow the [Tutorials](/tutorials) in parallel.
 
 
