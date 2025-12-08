@@ -13,7 +13,7 @@ has_children: false
 ## CellType Table
 &nbsp;
 
-The `CellTypeTable`  can be used for [automated landmarking](/documentation/landmarking/automated-landmarking) and [automated channel selection](/documentation/review#auto-channel-selection) during cell review.*
+The `CellTypeTable` can be used for [automated landmarking](/documentation/landmarking/automated-landmarking) and [automated channel selection](/documentation/review#auto-channel-selection) during cell review.*
 
 **Example CellTypeTable.csv:**
 
