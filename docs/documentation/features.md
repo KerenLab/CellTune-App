@@ -18,7 +18,7 @@ CellTune performs an expanded feature extraction step, computing many more featu
 Each feature is derived from a channel and can represent single protein expression, protein colocalization, composites of proteins, or subregions. 
 *Only protein expression features are required*
 
-Subregion features provide contextual histological information via pixel classifiers (e.g., smooth muscle masks to distinguish fibroblasts from vascular smooth muscle cells).
+Subregion features provide contextual histological information via pixel classifiers (e.g., smooth muscle vasculature masks to distinguish fibroblasts from vascular smooth muscle cells).
 - These can be manually prepared or generated with pixel classification tools like Ilastik and QuPath.
 (*Under development is incorporating all of these into the GUI*) 
 

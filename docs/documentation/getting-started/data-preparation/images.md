@@ -92,6 +92,7 @@ When you create a project, CellTune links (not copies) these image files into th
 
 Initial Zarr generation will be significantly slower on remote file systems due to high I/O latency.
 We recommend storing data in a dedicated project directory under `CellTune_Data/`.
+Currently on Windows, the image data that you are importing must be on the same drive (C:, D:, E:, etc) as the project folder you are creating due to hard-linking.
 
 **Recommended Workflow for Remote Data** 
 
@@ -124,7 +125,7 @@ You can use any pre-processing tools. You just need to make sure that at the end
 ---
 ### Subregions / Masks
 
-Subregions (or binary masks) provide contextual histological information via pixel classifiers (e.g., smooth muscle masks to distinguish fibroblasts from vascular smooth muscle cells).
+Subregions (or binary masks) provide contextual histological information via pixel classifiers (e.g., smooth muscle vasculature masks to distinguish fibroblasts from vascular smooth muscle cells).
 
 These can be manually prepared or generated with pixel classification tools like Ilastik and QuPath (Under development is incorporating all of these into the GUI).
 

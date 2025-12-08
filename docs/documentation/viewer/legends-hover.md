@@ -27,7 +27,7 @@ The legend shows which channels are on:
 
 To turn off cell info inclusion in the legend, use the legend menu or keyboard shortcut `Cmd + I`.
 
-To adjust what cell info is shown in the hover setting, use the legend manu:
+To adjust what cell info is shown in the hover setting, use the legend menu:
 
 ![Menu_HoverSettings](/assets/documentation/Menu_HoverSettings.png){: width="55%"}  
 
@@ -39,7 +39,7 @@ Select which features will be shown in the legend when hovering over a cell:
 You can select features manually:
 ![Hover_Legend_Feature_Selection](/assets/documentation/Hover_Legend_Feature_Selection.png)
 
-We recommend to select the mean of the lineage features (Mean + Cell  will be selected automatically) as well as any relevant subregions. See [Features Documentation](/documentation/features) for more info. 
+We recommend selecting the mean of the lineage features (Mean + Cell will be selected automatically) as well as any relevant subregions. See [Features Documentation](/documentation/features) for more info. 
 
 You can also select a feature group (*Highly Recommended!*)
 We create a `Lineage` feature group and select it here:
