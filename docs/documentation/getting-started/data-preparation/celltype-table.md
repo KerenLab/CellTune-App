@@ -72,7 +72,7 @@ Column names: `SecondaryMarker` and `TertiaryMarker`
 
 Description: Markers that could be expressed but are not required for membership to the celltype. E.g. CD8+CD45- cells will be classified as CD8T as will CD8+CD45+ cells. So they are not required but present (and usually present).
 
-'SecondaryMarker' designation is given to TertiaryMarkers that are very specific for a celltype, it is purely for organization (the user). E.g. CD3 is very specific for CD8 and we expect it on all/most CD8T. So we include it there. A similar argument can be made for CD45, but we prefer to put it as Tertiary for all the immune cell types (aside for those where it is Primary). See the example table above. 
+'SecondaryMarker' designation is given to TertiaryMarkers that are very specific for a celltype, it is purely for organization (the user). E.g. CD3 is very specific for CD8 and we expect it on all/most CD8T. So we include it there. A similar argument can be made for CD45, but we prefer to put it as Tertiary for all the immune cell types (aside from those where it is Primary). See the example table above. 
 
 Some proteins stain the tissue broadly and all cells have some signal of expression from them. For example Collagen often falls into this category. In this case we include this marker as a `TertiaryMarker` as if we set strict gates against it we might not find any of the desired cells. 
 
@@ -92,8 +92,8 @@ Description:
 
 ### **Cell Type Colors!**
 As you can see, we feel very strongly about celltype colors.
-We spent a lot of time to generate a color palette of over 30 colors we can differentiate easily between.
-Then made a default assignment for the major cell types.
+We spent a lot of time generating a color palette of over 30 colors we can differentiate easily between.
+Then we made a default assignment for the major cell types.
 
 **CellTune CytoPalette**
 

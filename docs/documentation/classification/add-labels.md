@@ -25,7 +25,7 @@ Once you have created a classifier, you need to add labels to it.
 3. In `Select Labels Source` you can choose between using labels `From existing population set`, or `Import population set` from a path.
     For example, for the first labeling round you will select the landmarks as the classifier labels.
     - Click on `Filter Populations` if you don't want to use all populations from the selected or imported population set.
-4. If your classifier already has labels and want to modify them, select `Replace existing labels` in `Label Import Options`. This will open the `Existing label policy` section:
+4. If your classifier already has labels and you want to modify them, select `Replace existing labels` in `Label Import Options`. This will open the `Existing label policy` section:
     - `Replace with new`: If a cell from the new labels file exists in the current labels, replace its label with that of the new file.
     - `Keep old labels`: If a cell from the new labels file exists in the current labels, keep its current label.
     - `Keep both labels`: If a cell from the new labels file exists in the current labels, add the new label. In this case the cell will have 2 labels.

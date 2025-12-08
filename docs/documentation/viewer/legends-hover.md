@@ -16,7 +16,7 @@ Legends are an important visual reference when navigating your images. They give
 
 ### Turning the Legend On/Off
 
-Legend can be turned on/off from the menu or with the keyboard shortcut `Cmd + L`.
+The legend can be turned on/off from the menu or with the keyboard shortcut `Cmd + L`.
 ![Menu_Legend](/assets/documentation/Menu_Legend.png)
 
 

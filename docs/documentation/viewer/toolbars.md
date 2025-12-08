@@ -41,7 +41,7 @@ The Review Toolbar shows if Review Mode is `On` or `Off` and has buttons for nav
 
 - Enter/Exit *Review Mode* <span style="vertical-align: middle;">![Toolbar_Label_Ambiguous](/assets/documentation/Toolbar_Review_Enter.png){: width="5%"}</span>
 - Home To Current Review Cell  <span style="vertical-align: middle;">![Toolbar_Label_Plus](/assets/documentation/Toolbar_Review_Home.png){: width="5%"}</span>  
-    Brings you back to the cell you should be reviewing if you pan away from it or selected a different cell
+    Brings you back to the cell you should be reviewing if you panned away from it or selected a different cell
 - Review Settings <span style="vertical-align: middle;">![Toolbar_Label_Broom](/assets/documentation/Toolbar_Review_Settings.png){: width="5%"}</span>  
     Allows you to change whether automated channel selection is on/off.
 - Add Note (*under development*)

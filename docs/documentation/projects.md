@@ -31,7 +31,7 @@ Inside it, create two subfolders:
 
 `CellTune_Data` is where you place the raw inputs that CellTune will use (see [Data Preparation](/documentation/getting-started/data-preparation) section).
 
-It contains two folders :
+It contains two folders:
 
 `Images/`      ← Preprocessed or raw images you want to load into CellTune  
 `Tables/`      ← Marker, CellType, and any other cell, patient, sample, or other metadata tables for your project.

@@ -17,7 +17,7 @@ Importantly, the goal is *not* to use initial clusters as final classifications 
 CellTune uses flowSOM (Self-organized maps) unsupervised clustering.
 
 ### Run Clustering
-Select clustering through the classification menu bar:
+Select clustering from the classification menu bar:
 
 ![Menu_Clustering](/assets/documentation/Menu_Clustering.png){: width="45%"}  
 

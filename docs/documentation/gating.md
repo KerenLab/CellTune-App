@@ -59,7 +59,7 @@ This documentation section introduces the `Gating panel` and explains its variou
 
 
 ### Gating Visibility & Opacity
-At the top of the gating panel is a visibility icon, you can toggle on/off the gating. If it is on it will still be visible when the gating panel is minimized.  
+At the top of the gating panel is a visibility icon to toggle on/off the gating outline/fill. If it is on it will still be visible when the gating panel is minimized.  
 You can adjust whether the gating color fills the selected cells or only shows their borders, as well as the gating opacity, from the `Segment Controls` panel. 
 
 
@@ -75,7 +75,7 @@ To the right of the histogram there is a settings icon you can click on to edit 
 
 
 ### Standard vs. Landmark Gating
-When we typically think of gating, we are trying to set threshold to separate between positive and negative cells.
+When we typically think of gating, we are trying to set thresholds to separate between positive and negative cells.
 The following example shows a threshold we might apply on CD45 to separate CD45+ and CD45- cells.
 [The cells highlighted in cyan would be gated as positive.]
 

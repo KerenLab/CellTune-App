@@ -53,7 +53,7 @@ Below the images panel, you will find the channels panel with several channel wi
 **Adjust Brightness:**  
 You can adjust channel brightness cutoffs using the sliders in each channel widget.
 All pixel values below the left (bottom) slider handle will be black, and all pixel values above the right (upper) slider handle will be saturated.
-> Tip: You can click directly on the values and edit them (press Enter after typing!). You can also edit the value on the right side to increase/decrease the sliders range.
+> Tip: You can click directly on the values and edit them (press Enter after typing!). You can also edit the value on the right side to increase/decrease the slider's range.
 
 
 **Select Channel:**  
@@ -154,7 +154,7 @@ For more info, see the [Gating Documentation.](/documentation/gating)
 ### Classification Panel
 
 
-The Classification Panel is just below gating. Here you can create classifiers, add labels to them, train them, plot confusion matrix for their models, and sample cells for labeling. 
+The Classification Panel is just below gating. Here you can create classifiers, add labels to them, train them, plot the confusion matrix for their models, and sample cells for labeling. 
 
 ![Classification_panel](/assets/documentation/Classification_panel.png){: width="35%"}  
 

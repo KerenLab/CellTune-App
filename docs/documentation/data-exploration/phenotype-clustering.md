@@ -24,7 +24,7 @@ You can select a subset of populations and cluster them alone, to generate the p
 
 This can be helpful to see subsets of populations that are not seen when clustering all of the cells together.
 
-1. Typically we start from plotting an expression heatmap of our current populations including all markers to identify which are the relevant functional markers for a specific celltype.
+1. Typically we start by plotting an expression heatmap of our current populations including all markers to identify which are the relevant functional markers for a specific celltype.
 
 2. Then we create a feature group for each celltype, including only its relevant functional markers:
 
@@ -39,7 +39,7 @@ This can be helpful to see subsets of populations that are not seen when cluster
     ![Clustering_CD8T_Dialog](/assets/documentation/Clustering_CD8T_Dialog.png){: width="30%"}  
 
 
-5. Then your clusters will be generated and open in the Populations Panel.
+5. Then your clusters will be generated and will open in the Populations Panel.
 
     You can then view your CD8T clusters by hiding the channels:
     ![CD8T_Clustering_View](/assets/documentation/CD8T_Clustering_View.png){: width="100%"}  

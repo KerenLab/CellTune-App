@@ -132,7 +132,7 @@ These can be manually prepared or generated with pixel classification tools like
 **Important!** The masks currently can only be imported when using `single-TIFF` directories, and need to be included in the image folder.
 These file names must end in "__Subregion" or "__Mask". 
 
-For examples: "Tissue__Mask", "Tumor__Subregion"
+For example: "Tissue__Mask", "Tumor__Subregion"
 
 	CellTune_Data/{PROJ_NAME}/Images/
 		{IMAGE_NAME_1}/

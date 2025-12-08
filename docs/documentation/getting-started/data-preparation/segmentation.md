@@ -15,7 +15,7 @@ has_children: false
 
 ### Segmentation Formats
 
-- Segmentation **label images** are required for CellTune. [Pixels values indicate the cell IDs, 0=background.]
+- Segmentation **label images** are required for CellTune. [Pixel values indicate the cell IDs, 0=background.]
 - Segmentation should be single TIFF format (2D)
 - Segmentation must be the same size as corresponding channel images.
 - Data type should be integer type: `uint16` or `uint32`

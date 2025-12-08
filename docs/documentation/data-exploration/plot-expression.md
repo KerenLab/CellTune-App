@@ -10,7 +10,7 @@ permalink: /documentation/data-exploration/plot-expression
 ---
 ## Plot Expression
 
-Plotting a heatmap of protein/marker expression across cell classes is core data exploration for spatial proteomics. It helps you characterize and validate celltypes & phenotypes, see that your classes make sense, and spot mislabeled or mixed populations.
+Plotting a heatmap of protein/marker expression across cell classes is a core part of data exploration for spatial proteomics. It helps you characterize and validate celltypes & phenotypes, see that your classes make sense, and spot mislabeled or mixed populations.
 
 
 ### Plot Heatmap

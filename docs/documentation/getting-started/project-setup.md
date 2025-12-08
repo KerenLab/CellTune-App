@@ -36,7 +36,7 @@ When the images have loaded you will see them in the dialog:
 
 You can move images to the right side to exclude them from the project here. (Their links to the project will be removed, the original data is never touched!!!)
 
-When you click continue, CellTune will read all the channels from one of your images (It is assumed that channels are the exactly same for all images currently!! So please make sure that you format your data properly. We will add all these checks in the future.) CellTune will extract some channel info (channel name, file type, etc) into the database based on this.
+When you click continue, CellTune will read all the channels from one of your images (It is assumed that channels are exactly the same for all images currently!! So please make sure that you format your data properly. We will add all these checks in the future.) CellTune will extract some channel info (channel name, file type, etc) into the database based on this.
 
 During this process you will see this message:
 
@@ -51,7 +51,7 @@ After setting the segmentation, click `Confirm`. The channels will populate the 
 
 ![NewProject_5_ChannelsList](/assets/documentation/NewProject_5_ChannelsList.png){: width="100%"}   
 
-When you finish with the dialog and click `Create`, Zarr's will be generated for your images. These are optimized pyramidal-capable images. Please be patient:
+When you finish with the dialog and click `Create`, Zarrs will be generated for your images. These are optimized pyramidal-capable images. Please be patient:
 
 ![NewProject_6_GenerateZarr](/assets/documentation/NewProject_6_GenerateZarr.png){: width="55%"}   
 

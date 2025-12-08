@@ -23,11 +23,11 @@ CellTune supports `.csv`, `.parquet`, and `AnnData` outputs, making it easy to c
 
     ![Export_CellTable](/assets/documentation/Export_CellTable_Dialog.png){: width="75%"}
     
-3. You can choose the output file type in the top drop down list:
+3. You can choose the output file type in the top dropdown list:
 
     ![Export_CellTable_Options](/assets/documentation/Export_CellTable_Options.png){: width="45%"}  
 
-4. In `Select Feature to Export` choose which feature are included in the exported table.
+4. In `Select Feature to Export` choose which features are included in the exported table.
 
 5. In `Select Population Sets to Include` you can choose to add population sets to the exported cell table. You can add multiple population sets.
 

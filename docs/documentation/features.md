@@ -41,11 +41,11 @@ This will open the dialog where you can select channels to calculate features on
 - You need to put the image pixel size in manually at this time
 - It is currently recommended to use 16 cores or less for very large images. 
 
-In the advanced features you can control the distance (microns) that erode and dilate features are calculated at:
+In the advanced features you can control the distance (microns) at which erode and dilate features are calculated at:
 
 ![ComputeFeatures_Advanced](/assets/documentation/ComputeFeatures_Advanced.png){: width="55%"}  
 
-Select `OK` to calculate. It will take some time, you should see a progress bar:
+Select `OK` to calculate. It will take some time... you should see a progress bar:
 
 ![ComputeFeatures_ProgressStarting](/assets/documentation/ComputeFeatures_ProgressStarting.png){: width="35%"}  
 > *Please note- our progress bars are currently being overhauled, so you may encounter the progress not showing updates properly - do not worry it is still working*.
@@ -74,11 +74,11 @@ We usually save a `Lineage` group of features, which includes the Mean Cell expr
 
 ![Feature_Group_Create_Regions](/assets/documentation/Feature_Group_Create_Regions.png){: width="65%"}  
 
-Click `Create Feature Group` to accept, this will open a window where you can give the feature group a name:
+Click `Create Feature Group` to accept. This will open a window where you can give the feature group a name:
 
 ![Feature_Group_Create_Name](/assets/documentation/Feature_Group_Create_Name.png){: width="55%"}  
 
-and finally when done will get the following message:
+and finally when done you will get the following message:
 
 ![ComputeFeatures_Finished](/assets/documentation/ComputeFeatures_Finished.png){: width="55%"}  
 

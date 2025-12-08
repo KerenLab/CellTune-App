@@ -92,7 +92,7 @@ We can skip to the next cell if it is correct. Or remove the label if it is inco
 
 **Reviewing a Sample of Cells from the Classifier**
 
-Here we are reviewing the cells we sampled from the classifier. For these cells each of the two models had a different prediction. The cell currently being predicted to be CD8T by one model and APC by another.
+Here we are reviewing the cells we sampled from the classifier. For these cells each of the two models had a different prediction. The current cell was predicted to be CD8T by one model and APC by another.
 
 We can click on one of the population buttons in the review toolbar to assign the cell to a population. Or label the cell by clicking in the Populations Panel.
 
@@ -121,7 +121,7 @@ If you `RClick` on the review cell index you can jump to another cell in the rev
 ### Auto Channel Selection
 In `Review Mode`, as you navigate to the `Next Cell`, the channels can be automatically changed to those most associated with the celltype labels the cell has. This is useful because if we are looking at a cell which has predictions for Bcell and CD4T, it will automatically put on CD20, CD4, and CD3. 
 
-Up to 3 channels per celltype are stored in the population set's info, this data comes from the [CellTypeTable](/documentation/getting-started/data-preparation/celltype-table) and can be updated and imported at any time. See [Populations Info Documentation](/documentation/populations#populations-info).
+Up to 3 channels per celltype are stored in the population set's info - this data comes from the [CellTypeTable](/documentation/getting-started/data-preparation/celltype-table) and can be updated and imported at any time. See [Populations Info Documentation](/documentation/populations#populations-info).
 
 There are 7 channels, 1 is for the nuclear channel and is set to visibility off by default.
 3 channels for each population label (up to 2 labels). 

@@ -18,7 +18,7 @@ At the bottom right of the interface is the Segment Controls Panel.
 
 ### Selected Cell
 You can navigate to a cell by typing its cellID into the `Selected Cell` text box.
-By default the cell will be marked with white crosshair and the viewer will zoom and center on the cell.
+By default the cell will be marked with white crosshairs and the viewer will zoom and center on the cell.
 You can change these settings with the checkboxes below.
 
 > *Note: If a cell is near the edge of the image, it won't be perfectly centered on the screen.*
