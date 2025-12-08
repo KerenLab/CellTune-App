@@ -6,7 +6,7 @@ title: Download & Install
 
 ## Download CellTune
 &nbsp;  
-Download version 0.3.0 of CellTune for your platform: 
+Download version 0.3.0 of CellTune for your platform:  
 (follow [@CellTune_App](https://x.com/CellTune_App) for updates!)  
 &nbsp;
 - [Download for macOS (Apple Silicon)](https://github.com/KerenLab/CellTune-App/releases/download/v0.3.0/CellTune-v0.3.0-macOS-arm64.dmg) 
