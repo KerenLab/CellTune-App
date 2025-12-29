@@ -100,6 +100,6 @@ Then we made a default assignment for the major cell types.
 
 We use this as a starting point for our projects, and then make minimal adjustments to it - adding the cell types that aren't present and swapping some assignments if there is something specific we want to contrast even more. e.g. if our project was specifically about Neutrophils in the Tumor we might want to make them further apart, instead of Blue and Purple we might move the Neutrophils to be Pink or Orange. 
 
-![CellTune CytoPalette](/assets/documentation/celltune_cytopalette_dark.svg){: width="100%"}  
+![CellTune CytoPalette]({{ "/assets/documentation/celltune_cytopalette_dark.svg" | relative_url }}){: width="100%"}
 
 ---
