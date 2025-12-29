@@ -102,4 +102,9 @@ We use this as a starting point for our projects, and then make minimal adjustme
 
 ![CellTune CytoPalette]({{ "/assets/documentation/celltune_cytopalette_dark.svg" | relative_url }}){: width="100%"}
 
+Test 2
+
+<img src="{{ '/assets/documentation/celltune_cytopalette_dark.svg' | relative_url }}" style="width:100%;">
+
+
 ---
